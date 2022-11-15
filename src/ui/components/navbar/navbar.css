@@ -1,0 +1,73 @@
+a:link { color: rgb(255, 0, 0); }          /* Enlaces no visitados */
+
+a:visited { color: rgb(255, 255, 255); }     /* Enlaces visitados */
+
+a:hover {
+  
+        color: rgb(199, 33, 33) !important;
+
+ }
+   /* El usuario esta sobre el enlace */
+.active {
+     color: rgb(199, 43, 43) !important;
+     
+
+ } 
+ .dropdownn {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dropdownn button {
+    background-color: transparent;
+   margin-top: 2px !important;
+    border: none;
+    color: rgb(98, 28, 211);
+    cursor: pointer;
+    font-size:0.8rem;
+    font-weight: 370;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  .dropdownn-content {
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.50rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    min-width:auto;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 3.0rem;
+    
+  }
+  .dropdownn:hover .dropdownn-content {
+    display: block;
+
+ 
+  }
+  .dropdownn-content a {
+    color: rgb(8, 8, 8) !important;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 170;
+    padding: 0.2rem 0.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+  .dropdownn-content a:hover {
+ 
+  
+    color: rgb(13, 6, 117) !important;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .dropdownn-content {
+        left: 0;
+        top: 3.0rem;
+    }
+  }
