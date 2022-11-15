@@ -149,10 +149,24 @@ h6,
     margin-bottom: -60px;
 
     margin-top: 0;
-    margin-left: -80px;
-    
- 
+    margin-left: -80px; 
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 3.9rem;
+    }
+    .navbar-brand h2 {
+        font-size: 2.9rem;
+    }
+    .navbar-brand h6 {
+        font-size: 1rem;
+        margin-bottom: -50px;
+        margin-left: -60px;
+    }
+}
+    
+
 
 .navbar .navbar-brand::after {
     position: absolute;
