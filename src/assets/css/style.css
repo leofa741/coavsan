@@ -191,7 +191,8 @@ h6,
 @media screen and (max-width: 768px) {
     .navbar .navbar-brand::after {
         transform: skewX(-10deg);
-        width: 30px;
+        width: 39px;
+        right: -20px;
     }
 }
 
