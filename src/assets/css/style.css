@@ -179,6 +179,12 @@ h6,
     background-color: var(--dark);
 }
 
+@media screen and (max-width: 768px) {
+    .navbar .navbar-brand::after {
+        width: 30px;
+    }
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 20px 0;
