@@ -1,23 +1,13 @@
-import React, { useState } from 'react'
+
 import { Link, NavLink } from 'react-router-dom';
 import './navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 
 export const NavBar1 = () => {
 
-
-
- 
-
   return (
     <>
-    <header>
-
-
-        
-  
-   
-   
+    <header>   
      <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/"  className="navbar-brand ps-5 me-0">
             <h1 className="text-white m-0">Industro</h1>
@@ -34,15 +24,16 @@ export const NavBar1 = () => {
 
 
             <NavLink to="/home" 
-                 className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button className="btn   " data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+                 className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Home
             </button>            
                 </NavLink>
 
                 <NavLink to="/portfolio"
                  className={ ({ isActive }) => `nav-link dropdownn   ${isActive ? 'active ':''}` } >  
-            <button className="btn   " data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button   className="btn"
+             data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Portfolio
             </button>            
                 </NavLink>
@@ -51,7 +42,7 @@ export const NavBar1 = () => {
 
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" to="/" >   <button className="btn   " data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+                <NavLink  className="nav-link" to="/" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Pages
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
@@ -66,7 +57,7 @@ export const NavBar1 = () => {
 
            <NavLink to="/contact"
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button className="btn   " data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Contact
             </button>            
                 </NavLink>
