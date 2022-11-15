@@ -110,12 +110,13 @@ h6,
 
 /*** Navbar ***/
 .navbar.sticky-top {
+  
     top: -100px;
     transition: .5s;
 }
 
 .navbar .navbar-brand {
-    position: relative;
+    position: relative; 
     padding-right: 50px;
     height: 75px;
     display: flex;

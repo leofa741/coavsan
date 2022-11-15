@@ -1,10 +1,11 @@
 import React from 'react'
+import './navbar.css'
 
 export const TopnavBar = () => {
   return (
     <>
     
-  
+
     <div className="container-fluid bg-dark px-0">
         <div className="row g-0 d-none d-lg-flex">
             <div className="col-lg-6 ps-5 text-start">

@@ -8,7 +8,7 @@ export const AppRouter = () => {
    <>
 
 {/* <Navbar /> */}
-<TopnavBar />
+
 <NavBar1 /> 
 <CarrouselComponent />
 

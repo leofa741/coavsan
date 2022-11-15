@@ -1,3 +1,32 @@
+
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+
+
+
+  
+
+
+
 a:link { color: rgb(255, 0, 0); }          /* Enlaces no visitados */
 
 a:visited { color: rgb(255, 255, 255); }     /* Enlaces visitados */
