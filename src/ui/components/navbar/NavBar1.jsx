@@ -1,24 +1,10 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import './navbar.css'
+import MenuIcon from '@mui/icons-material/Menu';
 
 export const NavBar1 = () => {
 
- const [show, setShow] = useState(false);
-
-    const showMenu = () => {
-    if (show) {
-        collapseMenu();
-        setShow(false);
-    } else {
-        setShow(true);
-    }
-    }
-    
-    const collapseMenu = () => {
-    const menu = document.querySelector('.menu');
-    menu.classList.toggle('show');
-    }
 
 
  
@@ -37,8 +23,10 @@ export const NavBar1 = () => {
             <h1 className="text-white m-0">Industro</h1>
         </Link>
 
-        <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="navbar-toggler-icon"></span>
+        <button type="button" className="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <MenuIcon 
+            
+            />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
