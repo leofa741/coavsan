@@ -10,7 +10,7 @@ export const NavBar1 = () => {
     <header>   
      <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/"  className="navbar-brand ps-5 me-0">
-            <h1 className="text-white m-0">Industro</h1>
+            <h1 className="text-white m-9">COA</h1>
         </Link>
 
         <button type="button" className="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
