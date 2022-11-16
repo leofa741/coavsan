@@ -1,11 +1,11 @@
 import React from 'react'
 import { HeaderComponent } from '../../ui'
 
-export const HomeComponent = ({title}) => {
+export const HomeComponent = () => {
   return (
    <>
    
-   <HeaderComponent  title={title} />
+  
    
    </>
   )

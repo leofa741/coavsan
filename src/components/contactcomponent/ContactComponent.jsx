@@ -1,12 +1,10 @@
 import React from 'react'
 import { HeaderComponent } from '../../ui'
 
-export const ContactComponent = ({title}) => {
+export const ContactComponent = () => {
   return (
  <>
- <HeaderComponent
-  title={title}
-   />
+ 
  </>
   )
 }
