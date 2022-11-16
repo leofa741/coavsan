@@ -4,3 +4,4 @@ export * from './navbar/TopnavBar';
 export * from './footer/Footer';
 export * from './footer/Copirrigth';
 export * from './carrousel/CarrouselComponent';
+export * from './header/HeaderComponent';
