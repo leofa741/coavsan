@@ -10,7 +10,7 @@ export const AppRouter = () => {
 
 
 <NavBar1 /> 
-<br />
+
 
 {/* <CarrouselComponent /> */}
 
