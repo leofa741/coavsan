@@ -9,7 +9,7 @@ export const CarrouselComponent = () => {
         <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="w-100" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/carousel-1.jpg?raw=true" alt="Image"/>
+                    <img className="w-100" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/piso_portada.jpg" alt="Image"/>
                     <div className="carousel-caption">
                         <div className="container">
                             <div className="row justify-content-center">
@@ -23,7 +23,7 @@ export const CarrouselComponent = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="w-100" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/carousel-2.jpg?raw=true" alt="Image"/>
+                    <img className="w-100" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/piso_portada1.jpeg" alt="Image"/>
                     <div className="carousel-caption">
                         <div className="container">
                             <div className="row justify-content-center">
@@ -47,7 +47,7 @@ export const CarrouselComponent = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-            
+
         </div>
     </div></>
 
