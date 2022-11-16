@@ -55,14 +55,14 @@ export const NavBar1 = () => {
 
             <NavLink to="/home" 
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button className="" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Home
             </button>            
                 </NavLink>
 
                 <NavLink to="/portfolio"
                  className={ ({ isActive }) => `nav-link dropdownn   ${isActive ? 'active ':''}` } >  
-            <button   className="btn"
+            <button   className=""
              data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Portfolio
             </button>            
@@ -72,7 +72,7 @@ export const NavBar1 = () => {
 
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" to="/" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+                <NavLink  className="nav-link" to="/" >   <button className=" dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Pages
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
@@ -87,7 +87,7 @@ export const NavBar1 = () => {
 
            <NavLink to="/contact"
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button className="" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Contact
             </button>            
                 </NavLink>
