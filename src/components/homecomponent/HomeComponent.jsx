@@ -5,7 +5,7 @@ export const HomeComponent = ({title}) => {
   return (
    <>
    
-   <HeaderComponent  title={title} />
+
    
    </>
   )
