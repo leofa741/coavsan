@@ -296,16 +296,23 @@ h6,
 .page-header {
     background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/piso_portada.jpg) center center no-repeat;
     background-size: cover;
+   
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
+ 
     color: var(--light);
+    
+    
 }
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
+
     font-size: 18px;
     color: var(--light);
+    font-weight: 500;
+   
 }
 
 

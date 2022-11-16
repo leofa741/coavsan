@@ -1,7 +1,12 @@
 import React from 'react'
+import { HeaderComponent } from '../../ui'
 
-export const ContactComponent = () => {
+export const ContactComponent = ({title}) => {
   return (
-    <div>ContactComponent</div>
+ <>
+ <HeaderComponent
+  title={title}
+   />
+ </>
   )
 }

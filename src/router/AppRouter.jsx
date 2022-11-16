@@ -10,11 +10,12 @@ export const AppRouter = () => {
 
 
 <NavBar1 /> 
-<HeaderComponent  />
+<br />
+
 {/* <CarrouselComponent /> */}
 
    <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/" element={<Home />} title="Home"/>
     <Route path="/home" element={<Home />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />

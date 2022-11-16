@@ -4,7 +4,7 @@ import { PortFolioComponent } from '../components'
 export const Portfolio = () => {
   return (
     <>
-    <PortFolioComponent />
+    <PortFolioComponent  title="Nuestras Obras"/>
     </>
   )
 }

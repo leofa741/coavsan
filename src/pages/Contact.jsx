@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
    <>
 
-   <ContactComponent />
+   <ContactComponent title="Contact"/>
    
    </>
   )

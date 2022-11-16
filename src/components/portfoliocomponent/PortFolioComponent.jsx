@@ -1,7 +1,13 @@
 import React from 'react'
+import { HeaderComponent } from '../../ui'
 
-export const PortFolioComponent = () => {
+export const PortFolioComponent = ({title}) => {
   return (
-    <div>PortFolioComponent</div>
+    <>
+    <HeaderComponent
+    title={title}
+     />
+    
+    </>
   )
 }
