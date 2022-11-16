@@ -8,6 +8,34 @@ export const NavBar1 = () => {
   return (
     <>
     <header>   
+
+
+    
+
+
+    <div className="container-fluid bg-dark px-0">
+        <div className="row g-0 d-none d-lg-flex">
+            <div className="col-lg-6 ps-5 text-start">
+                <div className="h-100 d-inline-flex align-items-center text-white">
+                    <span>Contáctanos:</span>
+                    <a className="btn btn-link text-light" href=""><i className="fa fa-envelope me-3"> cubas_beto@hotmail.com</i></a>
+                    {/* <a className="btn btn-link text-light" href=""><i className="fab fa-twitter"></i></a>
+                    <a className="btn btn-link text-light" href=""><i className="fab fa-linkedin-in"></i></a>
+                    <a className="btn btn-link text-light" href=""><i className="fab fa-instagram"></i></a> */}
+                </div>
+            </div>
+            <div className="col-lg-6 text-end">
+                <div className="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+                    <span className="fs-5 fw-bold me-2"><i className="fa fa-phone-alt me-2"></i>Llámanos:</span>
+                    <span className="fs-5 fw-bold">11-3313-8900  / 11-3324-9832</span>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
      <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/"  className="navbar-brand ps-5 me-0">
             <h1 className="text-white m-9">C</h1><br />

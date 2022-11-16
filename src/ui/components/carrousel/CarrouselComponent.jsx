@@ -14,11 +14,9 @@ export const CarrouselComponent = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 Years
-                                        of Working Experience</p>
-                                    <h1 className="display-1 text-white mb-5 animated slideInRight">Industrial Solution
-                                        Providing Company</h1>
-                                    <a href="" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 años de experiencia instalando</p>
+                                    <h1 className="display-1 text-white mb-5 animated slideInRight">Pisos vinilicos</h1>
+                                 
                                 </div>
                             </div>
                         </div>
@@ -30,25 +28,26 @@ export const CarrouselComponent = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 Years
-                                        of Working Experience</p>
-                                    <h1 className="display-1 text-white mb-5 animated slideInRight">The Best Reliable
-                                        Industry Solution</h1>
-                                    <a href="" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 años de experiencia instalando</p>
+                                    <h1 className="display-1 text-white mb-5 animated slideInRight">Coa Revestimienos</h1>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
             </button>
+
             <button className="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
+            
         </div>
     </div></>
 
