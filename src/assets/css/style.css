@@ -309,6 +309,7 @@ h6,
     background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home2.jpg) center center no-repeat;
     background-size: cover;
     width: 140%;
+    top: 40px;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -319,7 +320,7 @@ h6,
 .page-header-portfolio {
     background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home1.jpg) center center no-repeat;
     background-size: cover;
-    top: 30px;
+    top: 40px;
     width: 140%;
     height: 20vh;
     display: flex;
