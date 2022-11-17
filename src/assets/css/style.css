@@ -296,8 +296,9 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-1.jpg) center center no-repeat fixed;
     background-size: cover;
+   
     width: 140%;
     height: 20vh;
     display: flex;
@@ -307,7 +308,7 @@ h6,
 
 }
 .page-header-contact {
-    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home2.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home2.jpg) center center no-repeat fixed;
     background-size: cover;
     width: 140%;
     top: 50px;
@@ -319,7 +320,7 @@ h6,
 
 }
 .page-header-portfolio {
-    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home1.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home1.jpg) center center no-repeat   fixed;
     background-size: cover;
     top: 50px;
     width: 140%;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { BannerTelefonos } from './BannerTelefonos'
 
 export const BannerComponent = ({descrip}) => {
   return (
@@ -10,6 +11,7 @@ export const BannerComponent = ({descrip}) => {
                 <div className="text-white ">
              
                     <h3 className="text-white ">{descrip}</h3>
+                    <BannerTelefonos />
                 </div>
             </div>
         </div>

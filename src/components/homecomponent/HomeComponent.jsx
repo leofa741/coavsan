@@ -1,5 +1,5 @@
 import React from 'react'
-import { BannerComponent, CarrouselComponent, HeaderComponent } from '../../ui'
+import { BannerComponent, BannerTelefonos, CarrouselComponent, HeaderComponent } from '../../ui'
 
 export const HomeComponent = () => {
   return (
@@ -21,10 +21,9 @@ export const HomeComponent = () => {
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
-                    <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    <p class="fw-medium text-uppercase text-primary mb-1">About Us</p>
+                    <h1 class="display-5 mb-4">COA Revestimientos Ofrecemos soluciones integrales instalando revestimientos vinilicos</h1>
+                    <p class="mb-4">Contamos con Trayectoria en el mercado, especializada en la instalación de pisos y revestimientos para instituciones en general. Abocados a satisfacer las necesidades de nuestros clientes, cumpliendo con elevados estándares de calidad y manteniendo la mejor relación costo-beneficio. Basándonos en la búsqueda permanente de la mejora continua, contamos con un equipo de asesores altamente calificados y dedicados, para así responder a sus requerimientos; brindando la mejor opción y solución a sus proyectos. Los invitamos a recorrer nuestra amplia gama de productos; tengan en cuenta que más que productos, nosotros ofrecemos un servicio.
                     </p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
@@ -33,37 +32,18 @@ export const HomeComponent = () => {
                             <h5 class="text-white">Experience</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Chemical Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de pvc</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de linóleo</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de alfombra</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de listones</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos flotantes</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos encastrables</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma en baldosas</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Pisos de alfombra en baldosas</p>
                         </div>
                     </div>
-                    <div class="row pt-2">
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-envelope-open text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <p class="mb-2">Email us</p>
-                                    <h5 class="mb-0">info@example.com</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <p class="mb-2">Call us</p>
-                                    <h5 class="mb-0">+012 345 6789</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                 </div>
             </div>
         </div>
