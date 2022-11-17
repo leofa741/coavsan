@@ -12,7 +12,7 @@ export const HeaderComponent = ({title}) => {
                     <li className="breadcrumb-item active" aria-current="page">{title}</li>
                 </ol>
             </nav>
-        </div>
+        </div> 
     </div>
 
 </>
