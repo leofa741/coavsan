@@ -6,7 +6,7 @@ import {Copirrigth, Footer, HeaderComponent, Navbar, NavBar1, TopnavBar } from "
 export const AppRouter = () => {
   return (
    <>
-   <TopnavBar />
+
    
    <NavBar1 /> 
 
