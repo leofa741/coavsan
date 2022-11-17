@@ -7,7 +7,7 @@ export const NavBar1 = () => {
 
   return (
     <>
-    <header>   
+  
 
      <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/"  className="navbar-brand ps-5 me-0">
@@ -69,7 +69,7 @@ export const NavBar1 = () => {
         </div>
     </nav>
   
-    </header>
+   
     </>
   )
 }
