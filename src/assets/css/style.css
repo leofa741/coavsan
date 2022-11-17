@@ -305,13 +305,27 @@ h6,
     position: relative;
 
 }
+.page-header-contact {
+    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/home2.jpg) center center no-repeat;
+    background-size: cover;
+    width: 140%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
  
-    color: var(--light);
-    
-    
+    color: var(--light);    
 }
+.page-header-contact .breadcrumb-item+.breadcrumb-item::before {
+ 
+    color: var(--dark);    
+}
+
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
@@ -324,6 +338,9 @@ h6,
 
 @media screen and (max-width: 768px) {
     .page-header {
+        padding: 30px 0;
+    }
+    .page-header-contact {
         padding: 30px 0;
     }
     
