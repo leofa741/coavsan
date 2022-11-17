@@ -5,3 +5,4 @@ export * from './footer/Footer';
 export * from './footer/Copirrigth';
 export * from './carrousel/CarrouselComponent';
 export * from './header/HeaderComponent';
+export * from './banner/BannerComponent';
