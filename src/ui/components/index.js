@@ -7,3 +7,4 @@ export * from './carrousel/CarrouselComponent';
 export * from './header/HeaderComponent';
 export * from './banner/BannerComponent';
 export * from './banner/BannerContact';
+export * from './banner/BannerPortfolio';

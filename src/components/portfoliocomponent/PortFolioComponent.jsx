@@ -1,11 +1,11 @@
 import React from 'react'
-import { BannerComponent, HeaderComponent } from '../../ui'
+import {  BannerPortfolio} from '../../ui'
 
 export const PortFolioComponent = () => {
   return (
     <>
  <br /><br /><br /><br /><br />
- <BannerComponent descrip="Nuestras Obras"  />
+ <BannerPortfolio descrip="Nuestras Obras"  />
     
     </>
   )
