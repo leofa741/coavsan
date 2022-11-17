@@ -315,6 +315,15 @@ h6,
    
 }
 
+@media screen and (max-width: 768px) {
+    .page-header .breadcrumb-item,
+    .page-header .breadcrumb-item a {
+        font-size: 12px;
+    }
+
+    
+}
+
 
 /*** Facts ***/
 .facts {

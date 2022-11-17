@@ -4,7 +4,8 @@ import { HomeComponent } from '../components'
 export const Home = () => {
   return (
     <>
-    < HomeComponent  />
+    < HomeComponent title="Home" />
+     
     </>
   )
 }
