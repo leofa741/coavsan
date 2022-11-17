@@ -5,7 +5,7 @@ export const CarrouselComponent = () => {
    <>
    
    
-   <div className="container-fluid px-0 mb-5">
+   <div className="container-fluid px-0 mb-1">
         <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
