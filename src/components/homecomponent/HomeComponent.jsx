@@ -26,12 +26,7 @@ export const HomeComponent = () => {
                     <p class="mb-4">Contamos con Trayectoria en el mercado, especializada en la instalación de pisos y revestimientos para instituciones en general. Abocados a satisfacer las necesidades de nuestros clientes, cumpliendo con elevados estándares de calidad y manteniendo la mejor relación costo-beneficio. Basándonos en la búsqueda permanente de la mejora continua, contamos con un equipo de asesores altamente calificados y dedicados, para así responder a sus requerimientos; brindando la mejor opción y solución a sus proyectos. Los invitamos a recorrer nuestra amplia gama de productos; tengan en cuenta que más que productos, nosotros ofrecemos un servicio.
                     </p>
                     <div class="d-flex align-items-center mb-4">
-                        <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">Algunos</h1>
-                            <h5 class="text-white">De</h5>
-                            <h1 class="display-2">Nuestros</h1>
-                            <h5 class="text-white">Servicios</h5>
-                        </div>
+                       
                         <div class="ms-4">
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de pvc</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de linóleo</p>                           
