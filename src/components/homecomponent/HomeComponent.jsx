@@ -28,16 +28,12 @@ export const HomeComponent = () => {
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
                             <h1 class="display-2">25</h1>
-                            <h5 class="text-white">Years of</h5>
-                            <h5 class="text-white">Experience</h5>
+                            <h5 class="text-white">Algunos</h5>
+                            <h5 class="text-white">Servicios</h5>
                         </div>
                         <div class="ms-4">
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de pvc</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de linóleo</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de alfombra</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de listones</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Pisos flotantes</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Pisos encastrables</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de linóleo</p>                           
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma en baldosas</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma</p>
                             <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Pisos de alfombra en baldosas</p>
