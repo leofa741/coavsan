@@ -27,9 +27,9 @@ export const HomeComponent = () => {
                     </p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
-                           
-                            <h5 class="text-white">Algunos</h5>
-                            <h1 class="display-2">de</h1>
+                            <h1 class="display-2">Algunos</h1>
+                            <h5 class="text-white">De</h5>
+                            <h1 class="display-2">Nuestros</h1>
                             <h5 class="text-white">Servicios</h5>
                         </div>
                         <div class="ms-4">
