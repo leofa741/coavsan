@@ -3,7 +3,7 @@ import React from 'react'
 export const BannerComponent = ({descrip}) => {
   return (
     <section classNameName="section db p120">
-    <div className="container">
+    <div className="container  page-header">
         <div className="row">
             <div className="col-md-12">
           
