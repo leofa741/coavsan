@@ -32,6 +32,10 @@ export const HomeComponent = () => {
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de linóleo</p>                           
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma en baldosas</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Pisos de goma</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos de listones</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos flotantes</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Pisos encastrables</p>                   
+
                             <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Pisos de alfombra en baldosas</p>
                         </div>
                     </div>
