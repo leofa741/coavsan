@@ -1,10 +1,10 @@
 import React from 'react'
-import { BannerComponent, HeaderComponent } from '../../ui'
+import { BannerComponent, CarrouselComponent, HeaderComponent } from '../../ui'
 
 export const HomeComponent = () => {
   return (
    <>
-
+<CarrouselComponent />
   <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
 
   
