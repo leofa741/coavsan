@@ -123,4 +123,8 @@ const itemData = [
             img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/25.jpeg?raw=true',
             title: 'Coffee table',
             },
+            {
+                img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/26.jpeg?raw=true',
+                title: 'Coffee table',
+                },
 ];
