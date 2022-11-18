@@ -63,10 +63,10 @@ export const NavBar1 = () => {
 
                 <div className="nav-item  dropdownn" >
                 <NavLink  className="nav-link" to="/" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-            Nuestras Obras
+            Obras
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
-  <NavLink  className="nav-link-drop" to="/contables" > <a >Contables</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/obras" > <a >Obrasss</a></NavLink >
   <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
   <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
   <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
