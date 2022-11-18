@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="container py-5">
             <div className="row g-5">
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-3 col-md-6">
                     <h5 className="text-white mb-4">Our Office</h5>
                     <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>San Vicente, Bs As, Argentina</p>
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>11-3313-8900</p>
@@ -22,14 +22,14 @@ export const Footer = () => {
 
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-3 col-md-6">
                     <h5 className="text-white mb-4">Quick Links</h5>
                     <Link to="/home" className="text-white btn btn-link">Home</Link>
                     <Link to="/portfolio" className="text-white btn btn-link">Portfolio</Link>
                     <Link to="/contact" className="text-white btn btn-link">Contacto</Link>
               
                 </div>
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-3 col-md-6">
                     <h5 className="text-white mb-4">Business Hours</h5>
                     <p className="mb-1">Monday - Friday</p>
                     <h6 className="text-light">09:00 am - 07:00 pm</h6>
@@ -38,16 +38,13 @@ export const Footer = () => {
                     <p className="mb-1">Sunday</p>
                     <h6 className="text-light">Closed</h6>
                 </div>
-                {/* <div className="col-lg-3 col-md-6">
-                    <h5 className="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div className="col-lg-3 col-md-6">
+                    <h5 className="text-white mb-4">Coa Revestimientos</h5>
+               
                     <div className="position-relative w-100">
-                        <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email"/>
-                        <button type="button"
-                            className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <a href="http://qr.afip.gob.ar/?qr=_qE5_c-7TZDch4_LUPqiKQ,," target="_F960AFIPInfo"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0" width="60px" height="80px"/></a>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
