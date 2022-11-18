@@ -66,7 +66,7 @@ export const NavBar1 = () => {
             Obras
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
-  <NavLink  className="nav-link-drop" to="/obras" > <a >Obrasss</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/radiologoaformosa" > <a >Formosa</a></NavLink >
   <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
   <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
   <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
