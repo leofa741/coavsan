@@ -12,37 +12,37 @@ export const ContenidoPortfolio = () => {
         </div>
         <div className="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a className="project-item" href="">
-                <img className="img-fluid" src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Auto Engineering</h5>
                 </div>
             </a>
             <a className="project-item" href="">
-                <img className="img-fluid"  src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid"  src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Civil Engineering</h5>
                 </div>
             </a>
             <a className="project-item" href="">
-                <img className="img-fluid" src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Gas Engineering</h5>
                 </div>
             </a>
             <a className="project-item" href="">
-                <img className="img-fluid" src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Power Engineering</h5>
                 </div>
             </a>
             <a className="project-item" href="">
-                <img className="img-fluid" src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Energy Engineering</h5>
                 </div>
             </a>
             <a className="project-item" href="">
-                <img className="img-fluid" src="./src/assets/img/project-1.jpg" alt=""/>
+                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
                 <div className="project-title">
                     <h5 className="text-primary mb-0">Water Engineering</h5>
                 </div>
