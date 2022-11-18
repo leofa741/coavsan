@@ -57,8 +57,7 @@ export const NavBar1 = () => {
              data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Portfolio
             </button>            
-                </NavLink>
-         
+                </NavLink>        
                 
 
 
