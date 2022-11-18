@@ -5,7 +5,10 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export const CentroRadFormosa=()=> {
   return (
-    <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
+    <Box sx={{ width: {
+        xs: 250,
+        sm: 500,
+    }, height: 450, overflowY: 'scroll' }}>
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
