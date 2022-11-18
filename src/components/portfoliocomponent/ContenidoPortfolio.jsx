@@ -1,52 +1,137 @@
+import { maxWidth } from '@mui/system'
 import React from 'react'
 
 export const ContenidoPortfolio = () => {
   return (
    <>
-   
-   <div className="container-fluid bg-dark pt-5 my-5 px-0">
-        <div className="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style={{maxWidth:'600' }}>
-        
-            <p className="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
-            <h1 className="display-5 text-white mb-5">See What We Have Completed Recently</h1>
-        </div>
-        <div className="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a className="project-item" href="">
-                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Auto Engineering</h5>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" >
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
+                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Civil & Gas Engineering</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
-            <a className="project-item" href="">
-                <img className="img-fluid"  src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Civil Engineering</h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Power & Energy Engineering</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
-            <a className="project-item" href="">
-                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Gas Engineering</h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Plumbing & Water Treatment</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
-            <a className="project-item" href="">
-                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Power Engineering</h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Civil & Gas Engineering</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
-            <a className="project-item" href="">
-                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Energy Engineering</h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Power & Energy Engineering</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
-            <a className="project-item" href="">
-                <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
-                <div className="project-title">
-                    <h5 className="text-primary mb-0">Water Engineering</h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <div class="service-img">
+                            <img class="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25"/>
+                                <h3 class="mb-0">Plumbing & Water Treatment</h3>
+                                <hr class="w-25"/>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                    lorem sed diam stet diam sed stet.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
    </>
