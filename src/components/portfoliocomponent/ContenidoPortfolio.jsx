@@ -16,9 +16,9 @@ export const ContenidoPortfolio = () => {
 
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="service-item">
-                        <img className="img-fluid" src="./src/assets/img/centroradiologicoformosa/51.jpeg" alt=""/>
+                        <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/11.jpeg?raw=true" alt=""/>
                         <div className="service-img">
-                            <img className="img-fluid" src="./src/assets/img/centroradiologicoformosa/51.jpeg" alt=""/>
+                            <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/51.jpeg?raw=true" alt=""/>
                         </div>
                         <div className="service-detail">
                             <div className="service-title">
