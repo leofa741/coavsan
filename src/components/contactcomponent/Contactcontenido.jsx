@@ -88,7 +88,7 @@ export const Contactcontenido = () => {
   }}
  />
             <div className="row g-5">
-                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                     <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
                     <h1 className="display-5 mb-4"> Contáctanos para más información  </h1>
                     <p className="mb-4">
@@ -103,7 +103,7 @@ export const Contactcontenido = () => {
                                 <div className="ms-3">
                                     <h6>Call Us</h6>
                                     <span>
-11-3313-8900 / 11-3324-9832</span>
+                                    11-3313-8900 / 11-3324-9832</span>
                                 </div>
                             </div>
                         </div>
