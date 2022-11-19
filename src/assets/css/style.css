@@ -90,10 +90,10 @@ h6,
     font-weight: normal;
 }
 
-
 .topbar-right {
     position: relative;
     background: var(--primary);
+
 }
 
 .topbar-right::before {
@@ -111,7 +111,7 @@ h6,
 /*** Navbar ***/
 .navbar.sticky-top {
   
-    top: -100px;
+    top: -10px;
     transition: .5s;
 }
 
@@ -119,8 +119,9 @@ h6,
     position: relative; 
     padding-right: 50px;
     height: 80px;
-   width: 30%;
+    width: 30%;
     display: flex;
+   
     align-items: center;
     background: var(--primary);
 }
@@ -136,20 +137,22 @@ h6,
 .navbar-brand h1 {
     font-size: 4.9rem;
     font-weight: 600;
-    font-family:  'Helvetica Neue', sans-serif !important;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     color: #fff;
-    margin: 0;
+    margin: -20px 0 0 0 !important;
     padding: 0;
-    line-height: 1; 
+    line-height: 2.5rem;
+   
  
 }
 .navbar-brand h2 {
-    position: relative;
-    font-size: 3.9rem;
-    font-weight: 200;
+    font-size: 4.9rem;
+    font-weight: 600;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     color: #fff;
-    margin-bottom: -10;
-    margin-left: -3px;
+    margin: -20px 0 0 0 !important;
+    padding: 0;
+    line-height: 2.5rem;
 }
 .navbar-brand h6 {
     position: relative;
@@ -159,7 +162,7 @@ h6,
     margin-bottom: -60px;
 
     margin-top: 0;
-    margin-left: -80px; 
+    margin-left: -100px; 
 }
 
 @media screen and (max-width: 768px) {
@@ -174,7 +177,7 @@ h6,
     .navbar-brand h6 {
         font-size: 1rem;
         margin-bottom: -50px;
-        margin-left: -50px;
+        margin-left: -80px;
         z-index: 999;
     }
 }

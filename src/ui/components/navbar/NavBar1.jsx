@@ -29,10 +29,10 @@ export const NavBar1 = () => {
     </div>
    
 
-     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+     <nav className="navbar navbar-expand-lg bg-white navbar-light  py-0 pe-5">
         <Link to="/"  className="navbar-brand ps-5 me-0">
             <h1 className="text-white m-9">C</h1><br />
-            <h2 className="text-white ">oa</h2>
+            <h2 className="text-white ">OA</h2>
             <h6 className="text-white ">Revestimientos</h6>
         </Link>
 

@@ -5,6 +5,7 @@ import itemData from '../../database/datadb';
 import { BannerComponent } from '../../ui';
 
 export const Contactcontenido = () => {
+
     const [items, setItems] = useState([]);
 
     useEffect(() => {
@@ -17,9 +18,7 @@ export const Contactcontenido = () => {
          <>
  
  <br />
- <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
- 
-        
+ <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."/>       
   
        <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
       
@@ -92,8 +91,7 @@ export const Contactcontenido = () => {
                     <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
                     <h1 className="display-5 mb-4"> Contáctanos para más información  </h1>
                     <p className="mb-4">
-                        Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.
-                        .</p>
+                        Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.</p>
                   
                 </div>
                 
