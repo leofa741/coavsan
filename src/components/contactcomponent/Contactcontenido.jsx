@@ -95,7 +95,7 @@ export const Contactcontenido = () => {
                         Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.
                         .</p>
                     <div className="row g-2">
-                        <div className="col-3">
+                        <div className="col-6">
                             <div className="d-flex">
                                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
                                     <i className="fa fa-phone-alt text-white"></i>
