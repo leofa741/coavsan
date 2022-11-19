@@ -1,8 +1,44 @@
-import React from 'react'
+import { LinearProgress, Stack } from '@mui/material';
+import React, { useEffect, useState } from 'react'
+import { customFetch } from '../../../database/customfech';
+import itemData from '../../../database/datadb';
+import { BannerComponent } from '../../../ui';
 import { CentroRadFormosa } from '../Formosa/CentroRadFormosa'
 
 export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo2,titulo3,descrip1,descrip2,descrip3}) => {
-  return (
+    const [items, setItems] = useState([]);
+
+   useEffect(() => {
+       
+     customFetch(3000,itemData).then((data) => setItems(data));
+    }, []);
+ 
+   if (items.length === 0) {
+       return (
+        <>
+
+<br />
+<BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
+
+       
+ 
+      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
+     
+       <LinearProgress  />
+     </Stack>
+     
+        
+         
+         </>
+       );
+       
+   }
+   
+   else{
+
+ 
+ 
+    return (
  <>
  <div className="container-xxl py-5">
         <div className="container">
@@ -63,4 +99,5 @@ export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo
  
  </>
   )
+}
 }

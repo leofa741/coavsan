@@ -5,6 +5,8 @@ import { LayoutsGaleria } from '../components/galeria/layoutgaleria/LayoutsGaler
 import { BannerPortfolio } from '../ui'
 
 export const RadiologiaFormosa = () => {
+
+  
   return (
     <>
     <BannerPortfolio 

@@ -1,8 +1,42 @@
+import { LinearProgress, Stack } from '@mui/material';
 import { maxWidth } from '@mui/system'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { customFetch } from '../../database/customfech';
+import itemData from '../../database/datadb';
+import { BannerComponent } from '../../ui';
 
 export const ContenidoPortfolio = () => {
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        
+      customFetch(3000,itemData).then((data) => setItems(data));
+     }, []);
+  
+    if (items.length === 0) {
+        return (
+         <>
+ 
+ <br />
+ <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
+ 
+        
+  
+       <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
+      
+        <LinearProgress  />
+      </Stack>
+      
+         
+          
+          </>
+        );
+        
+    }
+    
+    else{
+ 
   return (
    <>
     <div className="container-xxl py-5">
@@ -139,4 +173,5 @@ export const ContenidoPortfolio = () => {
     </div>
    </>
   )
+}
 }
