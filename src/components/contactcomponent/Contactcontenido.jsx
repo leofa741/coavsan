@@ -94,31 +94,7 @@ export const Contactcontenido = () => {
                     <p className="mb-4">
                         Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.
                         .</p>
-                    <div className="row g-5">
-                        <div className="col-6">
-                            <div className="d-flex">
-                                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i className="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div className="ms-3">
-                                    <h6>Call Us</h6>
-                                    <span>
-                                    11-3313-8900 / 11-3324-9832</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-3">
-                            <div className="d-flex">
-                                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i className="fa fa-envelope text-white"></i>
-                                </div>
-                                <div className="ms-3">
-                                    <h6>Mail Us</h6>
-                                    <span>cubas_beto@hotmail.com</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                 </div>
                 
             </div>
