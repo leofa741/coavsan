@@ -16,6 +16,10 @@ export const NavBar1 = () => {
                 <div className="h-100 d-inline-flex align-items-center text-white">
                     <span>Contáctanos:</span>
                     <a className="btn btn-link text-light" href=""><i className="fa fa-envelope"> cubas_beto@hotmail.com</i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook"></i></a>
+                  
+
                   
                 </div>
             </div>
