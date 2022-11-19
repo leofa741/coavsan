@@ -94,7 +94,7 @@ export const Contactcontenido = () => {
                     <p className="mb-4">
                         Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.
                         .</p>
-                    <div className="row g-2">
+                    <div className="row g-5">
                         <div className="col-6">
                             <div className="d-flex">
                                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
