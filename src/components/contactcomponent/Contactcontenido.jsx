@@ -88,14 +88,14 @@ export const Contactcontenido = () => {
   }}
  />
             <div className="row g-5">
-                <div className="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
                     <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
                     <h1 className="display-5 mb-4"> Contáctanos para más información  </h1>
                     <p className="mb-4">
                         Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.
                         .</p>
-                    <div className="row g-4">
-                        <div className="col-6">
+                    <div className="row g-2">
+                        <div className="col-3">
                             <div className="d-flex">
                                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
                                     <i className="fa fa-phone-alt text-white"></i>
@@ -107,7 +107,7 @@ export const Contactcontenido = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-3">
                             <div className="d-flex">
                                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
                                     <i className="fa fa-envelope text-white"></i>
