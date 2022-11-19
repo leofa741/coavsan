@@ -62,11 +62,11 @@ export const NavBar1 = () => {
 
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" to="/" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Obras
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
-  <NavLink  className="nav-link-drop"   to="/radiologoaformosa" ><button className  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa </button></NavLink >
+  <NavLink  className="nav-link-drop"   to="/radiologoaformosa" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa </button></NavLink >
   <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
   <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
   <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
