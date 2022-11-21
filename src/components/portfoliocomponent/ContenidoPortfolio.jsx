@@ -1,4 +1,4 @@
-import { LinearProgress, Stack } from '@mui/material';
+import { Box, CircularProgress } from '@mui/material';
 import { maxWidth } from '@mui/system'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -23,16 +23,15 @@ export const ContenidoPortfolio = () => {
  
         
   
-       <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-      
-        <LinearProgress  />
-      </Stack>
-      
-         
+ <Box sx={{ display: 'flex' ,
+  justifyContent: 'center',
+  alignItems: 'center',
+}}>
+      <CircularProgress />
+    </Box>      
           
           </>
-        );
-        
+        );        
     }
     
     else{

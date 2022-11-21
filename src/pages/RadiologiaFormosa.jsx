@@ -14,8 +14,8 @@ export const RadiologiaFormosa = () => {
     <br />
 
     <LayoutsGaleria 
-    children={<CentroRadFormosa />}
-    titulo={"Radiología Formosa"}
+    children={<CentroRadFormosa tittle="Formosa" />}
+    titulo={"Formosa"}
     subtitulo={"Centro Radiológico Formosa"}
     descrip={"instalación de revestimientos en pisos con revestimiento de baldosas vinilicos y revestimientos en paredes con revestimientos de vinilicos y pintura"}
     titulo1={"Pisos"}
@@ -24,9 +24,7 @@ export const RadiologiaFormosa = () => {
     descrip2={"revestimientos en paredes con revestimientos de vinilicos y pintura"}
     titulo3={"Pintura"}
     descrip3={"pintura"}
-    />   
-
-   
+    />      
    </>
   )
 }

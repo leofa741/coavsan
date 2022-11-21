@@ -11,10 +11,11 @@ export  const customFetch = (time,task) => {
     );
 }
 
-export const fetchProductBytitle = (time,title) => {
+export const fetchProductBytitle = (time,tittle) => {  
+    
     return new Promise (resolve =>{
 setTimeout(()=>{
-    resolve(itemData.filter(prod=> prod.title===title))
+    resolve(itemData.filter(prod=> prod.title===tittle))
 },time);
 
     });

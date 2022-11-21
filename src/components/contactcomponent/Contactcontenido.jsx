@@ -1,4 +1,4 @@
-import { LinearProgress, Stack } from '@mui/material';
+import { Box, CircularProgress} from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech';
 import itemData from '../../database/datadb';
@@ -20,10 +20,12 @@ export const Contactcontenido = () => {
  <br />
  <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."/>       
   
-       <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-      
-        <LinearProgress  />
-      </Stack>        
+ <Box sx={{ display: 'flex' ,
+  justifyContent: 'center',
+  alignItems: 'center',
+}}>
+      <CircularProgress />
+    </Box>       
           
           </>
         );
