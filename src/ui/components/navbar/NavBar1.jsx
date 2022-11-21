@@ -66,7 +66,7 @@ export const NavBar1 = () => {
 
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle"    >
             Obras
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
