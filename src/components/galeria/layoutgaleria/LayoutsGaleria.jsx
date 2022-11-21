@@ -12,7 +12,7 @@ export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo
 
    useEffect(() => {  
         
-     customFetch(3000,itemData).then((data) => setItems(data));
+     customFetch(2000,itemData).then((data) => setItems(data));
     }, []);
  
    if (items.length === 0) {

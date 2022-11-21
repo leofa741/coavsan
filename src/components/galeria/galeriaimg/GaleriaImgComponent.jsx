@@ -18,7 +18,7 @@ function srcset(img, width, height, rows = 1, cols = 1) {
   };
 }
 
-export const CentroRadFormosa=({tittle})=> {
+export const GaleriaImgComponent=({tittle})=> {
 
   const [items, setItems] = useState([]);
 

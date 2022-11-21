@@ -1,5 +1,6 @@
 import React from 'react'
-import { CentroRadFormosa } from '../components/galeria/Formosa/CentroRadFormosa'
+
+import { GaleriaImgComponent } from '../components/galeria/galeriaimg/GaleriaImgComponent'
 
 import { LayoutsGaleria } from '../components/galeria/layoutgaleria/LayoutsGaleria'
 import { BannerPortfolio } from '../ui'
@@ -14,7 +15,7 @@ export const RadiologiaFormosa = () => {
     <br />
 
     <LayoutsGaleria 
-    children={<CentroRadFormosa tittle="Formosa" />}
+    children={<GaleriaImgComponent tittle="Formosa" />}
     titulo={"Formosa"}
     subtitulo={"Centro Radiológico Formosa"}
     descrip={"instalación de revestimientos en pisos con revestimiento de baldosas vinilicos y revestimientos en paredes con revestimientos de vinilicos y pintura"}
