@@ -16,7 +16,7 @@ export const HomeComponent = () => {
                             <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/about-1.jpg?raw=true"/>
                         </div>
                         <div className="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/about-2.jpg?raw=true"/>
+                            <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/23.jpeg?raw=true"/>
                         </div>
                     </div>
                 </div>
