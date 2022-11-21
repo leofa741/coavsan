@@ -69,7 +69,7 @@ export const ContenidoPortfolio = () => {
 
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div className="service-item">
-                        <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/12.jpeg?raw=true" alt=""/>
+                        <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/20.jpeg?raw=true" alt=""/>
                         <div className="service-img">
                             <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/20.jpeg?raw=true" alt=""/>
                         </div>
