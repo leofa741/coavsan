@@ -326,7 +326,7 @@ h6,
 
 }
 .page-header-portfolio {
-    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/centroradiologicoformosa/54.jpeg) center center no-repeat   fixed;
+    background: linear-gradient(to right, rgb(204, 64, 8) 0%, rgba(2, 36, 91, 0) 100%), url(../img/logo.png) center center no-repeat   fixed;
     background-size: cover;
     top: 100px;
     width: 140%;
