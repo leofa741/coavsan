@@ -71,10 +71,7 @@ export const NavBar1 = () => {
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
   <NavLink  className="nav-link-drop"   to="/radiologoaformosa" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa </button></NavLink >
-  <NavLink  className="nav-link-drop" to="/impositivos" > <span >Impositivos</span></NavLink >
-  <NavLink  className="nav-link-drop" to="/societarios" > <span >Societarios</span></NavLink >
-  <NavLink  className="nav-link-drop" to="/laborales" > <span >Laborales</span></NavLink >
-  <NavLink  className="nav-link-drop" to="/generales" > <span >Generales</span></NavLink >
+  <NavLink  className="nav-link-drop"   to="/laboratorio9dejulio" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> 9 de Julio </button></NavLink >
   </div>
 </div>
 
