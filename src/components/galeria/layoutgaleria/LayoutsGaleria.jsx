@@ -4,12 +4,13 @@ import { customFetch } from '../../../database/customfech';
 import itemData from '../../../database/datadb';
 import { BannerComponent } from '../../../ui';
 import { CentroRadFormosa } from '../Formosa/CentroRadFormosa'
+import PropTypes from 'prop-types';
 
 export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo2,titulo3,descrip1,descrip2,descrip3}) => {
+   
     const [items, setItems] = useState([]);
 
-   useEffect(() => {
-       
+   useEffect(() => {       
      customFetch(3000,itemData).then((data) => setItems(data));
     }, []);
  
@@ -17,29 +18,21 @@ export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo
        return (
         <>
 
-<br />
+     <br />
 <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
-
-       
- 
-      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
      
+      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>     
        <LinearProgress  />
-     </Stack>
-     
-        
+     </Stack>       
          
          </>
        );
        
-   }
-   
+   }   
    else{
-
- 
  
     return (
- <>
+   <>
  <div className="container-xxl py-5">
         <div className="container">
             <div className="row g-5 align-items-center">
@@ -101,3 +94,16 @@ export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo
   )
 }
 }
+
+LayoutsGaleria.propTypes = {
+    titulo: PropTypes.string.isRequired,
+    subtitulo: PropTypes.string.isRequired,
+    descrip: PropTypes.string.isRequired,
+    titulo1: PropTypes.string.isRequired,
+    titulo2: PropTypes.string.isRequired,
+    titulo3: PropTypes.string.isRequired,
+    descrip1: PropTypes.string.isRequired,
+    descrip2: PropTypes.string.isRequired,
+    descrip3: PropTypes.string.isRequired,
+}
+

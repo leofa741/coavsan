@@ -15,9 +15,9 @@ export const NavBar1 = () => {
             <div className="col-lg-6 ps-5 text-start">
                 <div className="h-100 d-inline-flex align-items-center text-white">
                     <span>Contáctanos:</span>
-                    <a className="btn btn-link text-light" href=""><i className="fa fa-envelope"> cubas_beto@hotmail.com</i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook"></i></a>
+                    <span className="btn btn-link text-light" href=""><i className="fa fa-envelope"> cubas_beto@hotmail.com</i></span>
+                    <span className="btn btn-link text-light" href=""><i className="fab fa-instagram"></i></span>
+                    <span className="btn btn-link text-light" href=""><i className="fab fa-facebook"></i></span>
                   
 
                   
@@ -71,10 +71,10 @@ export const NavBar1 = () => {
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
   <NavLink  className="nav-link-drop"   to="/radiologoaformosa" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa </button></NavLink >
-  <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/generales" > <a >Generales</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/impositivos" > <span >Impositivos</span></NavLink >
+  <NavLink  className="nav-link-drop" to="/societarios" > <span >Societarios</span></NavLink >
+  <NavLink  className="nav-link-drop" to="/laborales" > <span >Laborales</span></NavLink >
+  <NavLink  className="nav-link-drop" to="/generales" > <span >Generales</span></NavLink >
   </div>
 </div>
 
