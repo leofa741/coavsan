@@ -34,6 +34,20 @@ export const Contactcontenido = () => {
  
   return (
    <>
+            <div className="row g-5">
+                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
+                    <h1 className="display-5 mb-4"> Contáctanos para más información  </h1>
+                    <p className="mb-4">
+                        Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.</p>
+                  
+                </div>                
+            </div>
+
+
+            <hr style={{ color: '#000000', backgroundColor: '#000000', height: 1,  borderColor : '#000000'  }} />
+
+
    
    <div className="container-xxl py-5">
         <div className="container">
@@ -78,24 +92,7 @@ export const Contactcontenido = () => {
                     </div>
                 </div>
             </div>
-            <hr 
-  style={{
-    color: '#000000',
-    backgroundColor: '#000000',
-    height: 1,
-    borderColor : '#000000'
-  }}
- />
-            <div className="row g-5">
-                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                    <h1 className="display-5 mb-4"> Contáctanos para más información  </h1>
-                    <p className="mb-4">
-                        Si tienes alguna duda o consulta, no dudes en contactarnos. Estaremos encantados de ayudarte.</p>
-                  
-                </div>
-                
-            </div>
+   
         </div>
     </div>
    
