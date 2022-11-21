@@ -12,7 +12,9 @@ export const Laboratorio9DeJulio = () => {
     <br />
 
     <LayoutsGaleria
-    children={<GaleriaImgComponent tittle="Lab9dejulio" />}
+    children={<GaleriaImgComponent tittle="Lab9dejulio" value={100}      />}
+
+    
     titulo={"Laboratorio 9 de Julio"}
     subtitulo={"Laboratorio 9 de Julio"}
     descrip={"instalación de revestimientos en pisos con revestimiento de baldosas vinilicos y revestimientos en paredes con revestimientos de vinilicos y pintura"}

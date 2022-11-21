@@ -26,7 +26,11 @@ export const LayoutsGaleria = ({children,titulo,subtitulo,descrip,titulo1,titulo
   justifyContent: 'center',
   alignItems: 'center',
 }}>
-      <CircularProgress />
+      <CircularProgress 
+        color="secondary"
+        size={60}
+        thickness={2}
+      />
     </Box>       
          
          </>

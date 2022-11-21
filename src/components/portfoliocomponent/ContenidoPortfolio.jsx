@@ -1,5 +1,4 @@
 import { Box, CircularProgress } from '@mui/material';
-import { maxWidth } from '@mui/system'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { customFetch } from '../../database/customfech';
@@ -11,7 +10,7 @@ export const ContenidoPortfolio = () => {
 
     useEffect(() => {
         
-      customFetch(3000,itemData).then((data) => setItems(data));
+      customFetch(2000,1).then((data) => setItems(data));
      }, []);
   
     if (items.length === 0) {
@@ -20,14 +19,17 @@ export const ContenidoPortfolio = () => {
  
  <br />
  <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
- 
-        
+       
   
  <Box sx={{ display: 'flex' ,
   justifyContent: 'center',
   alignItems: 'center',
 }}>
-      <CircularProgress />
+      <CircularProgress
+        color="secondary"
+        size={60}
+        thickness={2}
+       />
     </Box>      
           
           </>

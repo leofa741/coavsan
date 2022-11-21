@@ -25,7 +25,7 @@ export const GaleriaImgComponent=({tittle})=> {
 
   useEffect(() => {  
 
-    fetchProductBytitle(3000,tittle).then((data) => setItems(data));
+    fetchProductBytitle(2000,tittle).then((data) => setItems(data));
   
   }, [tittle]);
 
@@ -33,7 +33,14 @@ export const GaleriaImgComponent=({tittle})=> {
     return (
       <>   
       <Box sx={{ display: 'flex' , justifyContent: 'center', alignItems: 'center' }}>
-      <CircularProgress />
+      <CircularProgress 
+        color="secondary"
+        size={50}
+        thickness={3}
+        variant="indeterminate"
+        value={100}
+        
+      />
       </Box>       
        </>
      );    

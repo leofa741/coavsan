@@ -1,16 +1,15 @@
 import { Box, CircularProgress} from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech';
-import itemData from '../../database/datadb';
+
 import { BannerComponent } from '../../ui';
 
 export const Contactcontenido = () => {
 
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState([]); 
 
     useEffect(() => {
-        
-      customFetch(3000,itemData).then((data) => setItems(data));
+        customFetch(2000,'contact').then((data) => setItems(data));
      }, []);
   
     if (items.length === 0) {
@@ -24,21 +23,21 @@ export const Contactcontenido = () => {
   justifyContent: 'center',
   alignItems: 'center',
 }}>
-      <CircularProgress />
+      <CircularProgress 
+        color="secondary"
+        size={60}
+        thickness={2}
+
+      />
     </Box>       
           
           </>
-        );
-        
-    }
-    
+        );        
+    }    
     else{
  
-  return (
-
-    
-   <>
-    
+  return (    
+   <>    
     <div className="container-xxl py-5">
         <div className="container">
             <div className="row g-5">
@@ -50,11 +49,7 @@ export const Contactcontenido = () => {
                   
                 </div>                
             </div>
-
-
             <hr style={{ color: '#000000', backgroundColor: '#000000', height: 1,  borderColor : '#000000'  }} />
-
-
   
             <div className="row g-5 justify-content-center mb-5">
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

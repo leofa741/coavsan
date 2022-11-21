@@ -9,7 +9,7 @@ export const Home = () => {
 
    useEffect(() => {
        
-     customFetch(4000,1).then((data) => setItems(data));
+     customFetch(3000,1).then((data) => setItems(data));
     }, []);
  
    if (items.length === 0) {
@@ -29,7 +29,11 @@ export const Home = () => {
   justifyContent: 'center',
   alignItems: 'center',
 }}>
-      <CircularProgress />
+      <CircularProgress
+        color="secondary"
+        size={60}
+        thickness={2}
+       />
     </Box>        
          
          </>
