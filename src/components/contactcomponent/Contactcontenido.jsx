@@ -33,7 +33,12 @@ export const Contactcontenido = () => {
     else{
  
   return (
+
+    
    <>
+    
+    <div className="container-xxl py-5">
+        <div className="container">
             <div className="row g-5">
                 <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
                     <p className="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
@@ -48,9 +53,7 @@ export const Contactcontenido = () => {
             <hr style={{ color: '#000000', backgroundColor: '#000000', height: 1,  borderColor : '#000000'  }} />
 
 
-   
-   <div className="container-xxl py-5">
-        <div className="container">
+  
             <div className="row g-5 justify-content-center mb-5">
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="bg-light text-center h-100 p-5">
