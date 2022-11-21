@@ -9,10 +9,10 @@ import { fetchProductBytitle } from '../../../database/customfech';
 import { Box, CircularProgress} from '@mui/material';
 
 
-function srcset(image, width, height, rows = 1, cols = 1) {
+function srcset(img, width, height, rows = 1, cols = 1) {
   return {
-    src: `${image}?w=${width * cols}&h=${height * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${width * cols}&h=${
+    src: `${img}?w=${width * cols}&h=${height * rows}&fit=crop&auto=format`,
+    srcSet: `${img}?w=${width * cols}&h=${
       height * rows
     }&fit=crop&auto=format&dpr=2 2x`,
   };

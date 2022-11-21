@@ -62,7 +62,7 @@
 
  
   }
-  .dropdownn-content span {
+  .dropdownn-content a {
     color: rgb(12, 12, 12) !important;
     display: block;
     font-size: .8rem !important;
@@ -73,7 +73,7 @@
     text-transform: uppercase;
 
   }
-  .dropdownn-content span:hover {
+  .dropdownn-content a:hover {
  
   
     color: rgb(34, 31, 31) !important;
