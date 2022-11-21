@@ -4,10 +4,9 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
-import itemData from '../../../database/datadb';
 import PersonIcon from '@mui/icons-material/Person';
-import { customFetch, fetchProductBytitle } from '../../../database/customfech';
-import { Box, CircularProgress, LinearProgress, Stack } from '@mui/material';
+import { fetchProductBytitle } from '../../../database/customfech';
+import { Box, CircularProgress} from '@mui/material';
 
 
 function srcset(image, width, height, rows = 1, cols = 1) {
@@ -31,23 +30,15 @@ export const CentroRadFormosa=({tittle})=> {
   }, [tittle]);
 
   if (items.length === 0) {
-
     return (
       <>   
-
-<Box sx={{ display: 'flex' ,
-  justifyContent: 'center',
-  alignItems: 'center',
-}}>
+      <Box sx={{ display: 'flex' , justifyContent: 'center', alignItems: 'center' }}>
       <CircularProgress />
-    </Box>       
-       
+      </Box>       
        </>
-     );
-     
- }   
- else{
-  return (
+     );    
+     } else{
+     return (
     <ImageList
     sx={{ width: { xs: 310, sm: 550 }, height: 650, overflowY: 'scroll' }}
       rowHeight={400}
@@ -63,8 +54,7 @@ export const CentroRadFormosa=({tittle})=> {
               {...srcset(items.img, 200, 300, rows, cols)}
               alt={items.title}
               loading="lazy"
-            />
-              
+            />              
             <ImageListItemBar
               sx={{
                 background:
@@ -76,33 +66,23 @@ export const CentroRadFormosa=({tittle})=> {
               actionIcon={
                 <IconButton
                   sx={{ color: 'white' }}
-                  aria-label={`star ${items.title}`}          
-                  
-                >
+                  aria-label={`star ${items.title}`} >
                   <StarBorderIcon     />
                 </IconButton>
                 
               }
-              actionPosition="left"
-              
-            />
+              actionPosition="left" />
+
                <ImageListItemBar  title={items.author}  position="bottom" 
                   actionIcon={
                     <IconButton
                       sx={{ color: 'white' }}
-                      aria-label={`PersonIcon ${items.author}`}          
-                      
-                    >
+                      aria-label={`PersonIcon ${items.author}`} >
                       <PersonIcon/>
                     </IconButton>
                     
                   } 
-                  actionPosition="left"
-               
-               />
-
-
-
+                  actionPosition="left" />
         
           </ImageListItem>
           

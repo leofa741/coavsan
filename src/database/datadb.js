@@ -3,13 +3,13 @@ const itemData = [
     {
         id: 0,
         img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/1.jpeg?raw=true',
-        title: 'Formo',
+        title: 'Formosa',
         author: 'Coa Revestimientos',
     },
     {
         id: 1,
         img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/centroradiologicoformosa/2.jpeg?raw=true',
-        title: 'Formo',
+        title: 'Formosa',
         author: 'Coa Revestimientos',
     },
     {
@@ -438,6 +438,190 @@ const itemData = [
         title: 'Formosa',
         author: 'Coa Revestimientos',
     },
+    {
+        id: 73,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/1.jpeg?raw=true',
+        title: 'Lab9dejulio',
+        author: 'Coa Revestimientos',
+    },
+    {
+        id: 74,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/2.jpeg?raw=true ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 75,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/3.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 76,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/4.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 77,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/5.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 78,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/6.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 79,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/7.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 80,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/8.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 81,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/9.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 82,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/10.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 83,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/11.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 84,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/12.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 85,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/13.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 86,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/14.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 87,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/15.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 88,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/16.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 89,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/17.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 90,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/18.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 91,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/19.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 92,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/20.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 93,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/21.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 94,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/22.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 95,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/23.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 96,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/24.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 97,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/25.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 98,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/26.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 99,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/27.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 100,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/28.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 101,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/29.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 102,
+        img: ' https://github.com/leofa741/coavsan/blob/master/src/assets/img/9dejulio/30.jpeg?raw=true  ',
+        title: 'Lab9dejulio',
+        author : 'Coa Revestimientos',
+    },
+         
+
+
+
 ];
 
 export default itemData;

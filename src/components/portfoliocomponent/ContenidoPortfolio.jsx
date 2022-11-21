@@ -84,9 +84,11 @@ export const ContenidoPortfolio = () => {
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="">Read More</a>
+                        <Link to="/laboratorio9dejulio" className="btn btn-primary">Ver más</Link>
                     </div>
                 </div>
+
+
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="service-item">
                         <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
@@ -104,9 +106,11 @@ export const ContenidoPortfolio = () => {
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="">Read More</a>
+                        <Link to="/laboratorio9dejulio" className="btn btn-primary">Ver más</Link>
                     </div>
                 </div>
+
+
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="service-item">
                         <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
