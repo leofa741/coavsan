@@ -15,7 +15,6 @@ export const LabChacarita = () => {
 
     <LayoutsGaleria
     children={<GaleriaImgComponent tittle="chacarita" value={100}      />}
-
     
     titulo={"Laboratorio Chacarita"}
     subtitulo={"Laboratorio Chacarita"}
