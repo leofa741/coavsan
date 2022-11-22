@@ -815,7 +815,7 @@ const itemData = [
          
     {
         id: 131,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/29.jpg?raw=true ',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/38.jpg?raw=true ',
         title: 'baradero',
         author : 'Coa Revestimientos',
     },
