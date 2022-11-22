@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Contact, Home, Laboratorio9DeJulio, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
 import {Copirrigth, Footer, HeaderComponent, Navbar, NavBar1, TopnavBar } from "../ui"
 
@@ -6,6 +6,7 @@ import {Copirrigth, Footer, HeaderComponent, Navbar, NavBar1, TopnavBar } from "
 export const AppRouter = () => {
   return (
    <>   
+   <BrowserRouter>
     <NavBar1/> 
 
     <Routes>
@@ -20,6 +21,7 @@ export const AppRouter = () => {
 
     <Footer />
     <Copirrigth  />
+    </BrowserRouter>
    </>
   )
 }
