@@ -861,6 +861,109 @@ const itemData = [
         title: 'baradero',
         author : 'Coa Revestimientos',
     },
+    {
+        id: 138,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/1.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 139,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/2.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 140,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/3.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 141,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/4.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 142,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/5.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 143,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/6.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 144,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/7.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 145,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/8.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 146,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/9.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 147,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/10.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 148,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/11.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 149,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/12.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 150,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/13.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 151,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/14.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 152,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/15.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 153,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/16.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 154,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/chacarita/17.jpg?raw=true',
+        title: 'chacarita',
+        author : 'Coa Revestimientos',
+    },
+    
          
 
          
