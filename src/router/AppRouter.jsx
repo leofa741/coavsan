@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom"
+import {  Route, Routes } from "react-router-dom"
 import { Contact, Home, Laboratorio9DeJulio, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
 import {Copirrigth, Footer, HeaderComponent, Navbar, NavBar1, TopnavBar } from "../ui"
 
@@ -6,9 +6,9 @@ import {Copirrigth, Footer, HeaderComponent, Navbar, NavBar1, TopnavBar } from "
 export const AppRouter = () => {
   return (
    <>   
-   <HashRouter>
+   
     <NavBar1/> 
-
+  
     <Routes>
     <Route path="/" element={<Home />} title="Home"/>
     <Route path="/home" element={<Home />} />
@@ -20,8 +20,9 @@ export const AppRouter = () => {
     </Routes>   
 
     <Footer />
+    
     <Copirrigth  />
-    </HashRouter>
+   
    </>
   )
 }

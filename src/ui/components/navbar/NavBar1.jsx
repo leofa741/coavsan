@@ -70,8 +70,8 @@ export const NavBar1 = () => {
             Obras
             </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
-  <NavLink  className="nav-link-drop"   to="/radiologoaformosa" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa</button></NavLink >
-  <NavLink  className="nav-link-drop"   to="/laboratorio9dejulio" ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">9 de Julio</button></NavLink >
+  <NavLink    to="/radiologoaformosa"    className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` }  ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Formosa</button></NavLink >
+  <NavLink    to="/laboratorio9dejulio"  className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">9 de Julio</button></NavLink >
 
   </div>
 </div>
