@@ -2,16 +2,17 @@ import { Box, CircularProgress } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { HomeComponent } from '../components'
 import { customFetch } from '../database/customfech';
+import itemData from '../database/datadb';
 import { BannerComponent } from '../ui';
 
 export const Home = () => {
   const [items, setItems] = useState([]);
-
-   useEffect(() => {
-       
-     customFetch(3000,1).then((data) => setItems(data));
-    }, []);
  
+   useEffect(() => {
+            customFetch(3000,'home').then((data) => setItems(data));
+            
+    }, [items]);
+
    if (items.length === 0) {
        return (
         <>

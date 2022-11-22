@@ -4,6 +4,8 @@ import { GaleriaImgComponent } from '../components/galeria/galeriaimg/GaleriaImg
 import { LayoutsGaleria } from '../components/galeria/layoutgaleria/LayoutsGaleria'
 import { BannerPortfolio } from '../ui'
 
+
+
 export const Laboratorio9DeJulio = () => {
   return (
     <>

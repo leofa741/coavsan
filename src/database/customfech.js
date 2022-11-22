@@ -6,18 +6,17 @@ export  const customFetch = (time,task) => {
         setTimeout(()=>{
             resolve(task); 
         },time);
-    }
-    
-    );
+    });
 }
+
+
 
 export const fetchProductBytitle = (time,tittle) => {  
     
     return new Promise (resolve =>{
 setTimeout(()=>{
-    resolve(itemData.filter(prod=> prod.title===tittle))
+    resolve(itemData.filter(prod => prod.title===tittle))
 },time);
 
-    });
-    
+    });    
 }

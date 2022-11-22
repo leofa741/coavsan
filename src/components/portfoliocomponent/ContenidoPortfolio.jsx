@@ -8,10 +8,9 @@ import { BannerComponent } from '../../ui';
 export const ContenidoPortfolio = () => {
     const [items, setItems] = useState([]);
 
-    useEffect(() => {
-        
-      customFetch(2000,1).then((data) => setItems(data));
-     }, []);
+    useEffect(() => {        
+      customFetch(2000,'portfolio').then((data) => setItems(data));
+     }, [items]);
   
     if (items.length === 0) {
         return (

@@ -22,9 +22,8 @@ export const GaleriaImgComponent=({tittle})=> {
 
   const [items, setItems] = useState([]);
 
-
   useEffect(() => {  
-
+    
     fetchProductBytitle(2000,tittle).then((data) => setItems(data));
   
   }, [tittle]);
