@@ -4,7 +4,7 @@ import { BannerTelefonos } from './BannerTelefonos'
 export const BannerComponent = ({descrip}) => {
   return (
     <section className="section ">
-    <div className="container-fluid page-header   py-5 mb-5 wow fadeIn">
+    <div className="container-fluid page-header   py-5 mb-5  ">
         <div className="row">
             <div className="col-md-12  text-white">
           
