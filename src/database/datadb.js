@@ -633,7 +633,7 @@ const itemData = [
          
     {
         id: 105,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/3.jpg?raw=true ',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/2.jpg?raw=true ',
         title: 'baradero',
         author : 'Coa Revestimientos',
     },
@@ -857,7 +857,7 @@ const itemData = [
          
     {
         id: 137,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/35.jpg?raw=true ',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/37.jpg?raw=true ',
         title: 'baradero',
         author : 'Coa Revestimientos',
     },
