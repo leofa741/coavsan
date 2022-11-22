@@ -618,6 +618,252 @@ const itemData = [
         title: 'Lab9dejulio',
         author : 'Coa Revestimientos',
     },
+    {
+        id: 103,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/1.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 104,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/2.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 105,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/3.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 106,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/4.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 107,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/5.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 108,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/6.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 109,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/7.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 110,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/8.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 111,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/9.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 112,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/10.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 113,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/11.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 114,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/12.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 115,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/13.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 116,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/14.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 117,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/15.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 118,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/16.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 119,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/17.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 120,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/18.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 121,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/19.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 122,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/20.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 123,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/21.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 124,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/22.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 125,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/23.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 126,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/24.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 127,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/25.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 128,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/26.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 129,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/27.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 130,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/28.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 131,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/29.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 132,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/30.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 133,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/31.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 134,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/32.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 135,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/33.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 136,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/34.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+    {
+        id: 137,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/baradero/35.jpg?raw=true ',
+        title: 'baradero',
+        author : 'Coa Revestimientos',
+    },
+         
+
+         
          
 
 
