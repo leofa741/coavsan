@@ -56,7 +56,7 @@ export const NavBar1 = () => {
                 </NavLink>
 
                 <NavLink to="/portfolio"
-                 className={ ({ isActive }) => `nav-link dropdownn   ${isActive ? 'active ':''}` } >  
+                 className={ ({ isActive }) => ` dropdownn   ${isActive ? 'active ':''}` } >  
             <button   className="btn" activeClassName="active" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
            
             Portfolio
