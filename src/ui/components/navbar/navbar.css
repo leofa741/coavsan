@@ -29,10 +29,10 @@
     background-color: transparent;
     margin-top: 1.7px !important;
     border: none;
-    color: rgb(8, 8, 8) !important;
+    color: #000000 !important;
     cursor: pointer;
     font-size:.8rem;
-    font-weight: 180;    
+    font-weight: 280;    
     font-family: Oxygen, Roboto,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
     text-align: center;
     text-transform: uppercase;
