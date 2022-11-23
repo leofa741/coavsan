@@ -50,14 +50,14 @@ export const NavBar1 = () => {
 
             <NavLink to="/home" 
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
-            <button data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Home
             </button>            
                 </NavLink>
 
                 <NavLink to="/portfolio"
                  className={ ({ isActive }) => `nav-link dropdownn   ${isActive ? 'active ':''}` } >  
-            <button  
+            <button   className="btn"
              data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Portfolio
             </button>            
@@ -66,11 +66,13 @@ export const NavBar1 = () => {
 
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle" >Obras</button> </NavLink >
+                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle"    >
+            Obras
+            </button> </NavLink >
   <div className="dropdownn-content bg-light m-0">
   <NavLink    to="/radiologoaformosa"    className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` }  ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Formosa</button></NavLink >
-  <NavLink    to="/laboratorio9dejulio"  className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button  className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">9 de Julio</button></NavLink >
-  <NavLink    to="/baradero"             className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button  className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Baradero</button></NavLink >
+  <NavLink    to="/laboratorio9dejulio"  className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">9 de Julio</button></NavLink >
+  <NavLink    to="/baradero"             className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Baradero</button></NavLink >
   <NavLink    to="/laboratoriochacarita"             className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Chacarita</button></NavLink >
 
   </div>
@@ -79,7 +81,7 @@ export const NavBar1 = () => {
 
            <NavLink to="/contact"
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Contact
             </button>            
                 </NavLink>
