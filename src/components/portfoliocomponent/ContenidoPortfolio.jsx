@@ -43,7 +43,7 @@ export const ContenidoPortfolio = () => {
         <div className="container">
             <div className="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" >
                 <p className="fw-medium text-uppercase text-primary mb-2">Portfolio</p>
-                <h1 className="display-5 mb-4"> Nuestras Obras</h1>                
+                <h1 className="display-5 mb-4"> Nuestras Ultimas Obras</h1>                
             </div>
 
             <div className="row gy-5 gx-4">
@@ -139,26 +139,33 @@ export const ContenidoPortfolio = () => {
                         <Link to="/laboratoriochacarita" className="btn btn-primary">Ver más</Link>
                     </div>
                 </div>
+
+
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div className="service-item">
-                        <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                        <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hosp.Aleman/IMG-20190212-WA0010.jpg?raw=true" alt=""/>
                         <div className="service-img">
-                            <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
+                            <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hosp.Aleman/IMG-20190212-WA0010.jpg?raw=true" alt=""/>
                         </div>
                         <div className="service-detail">
                             <div className="service-title">
                                 <hr className="w-25"/>
-                                <h3 className="mb-0">Power & Energy Engineering</h3>
+                                <h3 className="mb-0">
+                               Hospital Aleman
+                                    </h3>
                                 <hr className="w-25"/>
                             </div>
                             <div className="service-text">
-                                <p className="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
+                                <p className="text-white mb-0">
+                                Hospital Aleman Buenos Aires Argentina
+                                </p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="">Read More</a>
+                        <Link to="/hospitalaleman" className="btn btn-primary">Ver más</Link>   
                     </div>
                 </div>
+
+
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="service-item">
                         <img className="img-fluid" src="https://github.com/leofa741/coavsan/blob/master/src/assets/img/project-1.jpg?raw=true" alt=""/>
