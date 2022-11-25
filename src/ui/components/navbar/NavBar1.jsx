@@ -75,6 +75,7 @@ export const NavBar1 = () => {
   <NavLink    to="/baradero"             className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Baradero</button></NavLink >
   <NavLink    to="/laboratoriochacarita" className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Chacarita</button></NavLink >
   <NavLink    to="/hospitalaleman"       className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">H. Alemán</button></NavLink >
+    <NavLink    to="/hospital-laguna-blanca"     className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">H.Lag.Blanca</button></NavLink >
 
   </div>
 </div>
