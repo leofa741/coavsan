@@ -182,7 +182,7 @@ export const ContenidoPortfolio = () => {
                                 <p className="text-white mb-0">Hospital laguna Blanca</p>
                             </div>
                         </div>
-                        <Link to="/hospitallaguna-blanca" className="btn btn-primary">Ver más</Link>
+                        <Link to="/hospital-laguna-blanca" className="btn btn-primary">Ver más</Link>
                     </div>
                 </div>
             </div>
