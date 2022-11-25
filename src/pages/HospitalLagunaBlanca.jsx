@@ -14,8 +14,8 @@ export const HospitalLagunaBlanca = () => {
     <br />
 
     <LayoutsGaleria
-    children={<GaleriaImgComponent tittle="hospital-laguna-blanca" value={100} />}
-        
+    children={<GaleriaImgComponent tittle="lagunablanca" value={100} />}
+
     titulo={"Hospital Laguna Blanca"}
     subtitulo={"Hospital Laguna Blanca"}
     descrip={"instalación de revestimientos en pisos con revestimiento de baldosas vinilicos y revestimientos en paredes con revestimientos de vinilicos y pintura"}
