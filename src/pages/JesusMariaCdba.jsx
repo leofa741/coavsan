@@ -14,7 +14,7 @@ export const JesusMariaCdba = () => {
     <br />
 
     <LayoutsGaleria
-    children={<GaleriaImgComponent tittle="jesusmaria" value={100} />}
+    children={<GaleriaImgComponent tittle="ObraJesúsMaríacordoba" value={100} />}
  
     
     titulo={" Jesus Maria Cdba"}
