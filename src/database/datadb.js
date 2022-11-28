@@ -1275,6 +1275,48 @@ const itemData = [
         title: 'lagunablanca',
         author : 'Coa Revestimientos',
     },
+    {
+        id: 207,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/1.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 208,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/2.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 209,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/3.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 210,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/4.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 211,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/5.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 212,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/6.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
+    {
+        id: 213,
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/ObraJes%C3%BAsMar%C3%ADacordoba/7.jpg?raw=true',
+        title: 'ObraJesúsMaríacordoba',
+        author : 'Coa Revestimientos',
+    },
 
          
 
