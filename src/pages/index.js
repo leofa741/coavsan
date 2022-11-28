@@ -8,4 +8,5 @@ export * from './Baradero';
 export * from './HospitalAleman';
 export * from './LabChacarita';
 export * from './HospitalLagunaBlanca';
+export * from './JesusMariaCdba';
 
