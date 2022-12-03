@@ -6,17 +6,14 @@ import itemData from '../database/datadb';
 import { BannerComponent } from '../ui';
 
 export const Home = () => {
-  const [items, setItems] = useState([]);
- 
+  const [items, setItems] = useState([]); 
    useEffect(() => {
-            customFetch(3000,'home').then((data) => setItems(data));
-            
+            customFetch(3000,'home').then((data) => setItems(data));            
     }, [items]);
 
    if (items.length === 0) {
        return (
         <>
-
         <br />
         <br />
         <br />
@@ -24,7 +21,6 @@ export const Home = () => {
         <br />
         <br />
 <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."  />
-
  
 <Box sx={{ display: 'flex' ,
   justifyContent: 'center',
@@ -32,14 +28,12 @@ export const Home = () => {
 }}>
       <CircularProgress
         color="secondary"
-        size={60}
-        thickness={2}
+        size={40}
+        thickness={3}
        />
-    </Box>        
-         
+    </Box>           
          </>
-       );
-       
+       );       
    }   
    else{
   return (

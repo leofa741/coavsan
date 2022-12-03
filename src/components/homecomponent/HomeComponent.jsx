@@ -22,7 +22,7 @@ export const HomeComponent = () => {
                 </div>
                 <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p className="fw-medium text-uppercase text-primary mb-1">About Us</p>
-                    <h1 className="display-5 mb-4">COA Revestimientos Ofrecemos soluciones integrales instalando revestimientos vinilicos</h1>
+                    <h1 className="display-5 mb-4">COA Revestimientos Ofrecemos soluciones integrales instalando revestimientos vinilicos y Pvc</h1>
                     <p className="mb-4">Contamos con Trayectoria en el mercado, especializada en la instalación de pisos y revestimientos para instituciones en general. Abocados a satisfacer las necesidades de nuestros clientes, cumpliendo con elevados estándares de calidad y manteniendo la mejor relación costo-beneficio. Basándonos en la búsqueda permanente de la mejora continua, contamos con un equipo de asesores altamente calificados y dedicados, para así responder a sus requerimientos; brindando la mejor opción y solución a sus proyectos. Los invitamos a recorrer nuestra amplia gama de productos; tengan en cuenta que más que productos, nosotros ofrecemos un servicio.
                     </p>
                     <div className="d-flex align-items-center mb-4">
@@ -34,8 +34,7 @@ export const HomeComponent = () => {
                             <p><i className="fa fa-check text-primary me-2"></i>Pisos de goma</p>
                             <p><i className="fa fa-check text-primary me-2"></i>Pisos de listones</p>
                             <p><i className="fa fa-check text-primary me-2"></i>Pisos flotantes</p>
-                            <p><i className="fa fa-check text-primary me-2"></i>Pisos encastrables</p>                   
-
+                            <p><i className="fa fa-check text-primary me-2"></i>Pisos encastrables</p>  
                             <p className="mb-0"><i className="fa fa-check text-primary me-2"></i>Pisos de alfombra en baldosas</p>
                         </div>
                     </div>
