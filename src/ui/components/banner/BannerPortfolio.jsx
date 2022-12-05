@@ -12,7 +12,7 @@ export const BannerPortfolio = ({descrip}) => {
                     <h3 className="text-white ">{descrip}</h3>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 </section>
   )
