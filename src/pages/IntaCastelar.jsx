@@ -15,7 +15,7 @@ export const IntaCastelar = () => {
     <br />
 
     <LayoutsGaleria 
-    children={<GaleriaImgComponent tittle="intacastelar" />}
+    children={<GaleriaImgComponent tittle="IntaCastelar" />}
     titulo={"Inta Castelar"}
     subtitulo={"INTA Castelar"}
     descrip={"instalación de revestimientos en pisos con revestimiento de baldosas vinilicos y revestimientos en paredes con revestimientos de vinilicos y pintura"}
