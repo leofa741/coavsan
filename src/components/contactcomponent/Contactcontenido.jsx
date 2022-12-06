@@ -25,7 +25,7 @@ export const Contactcontenido = () => {
 }}>
       <CircularProgress 
         color="secondary"
-        size={60}
+        size={40}
         thickness={2}
 
       />
