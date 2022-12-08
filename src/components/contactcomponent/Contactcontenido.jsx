@@ -1,7 +1,6 @@
 import { Box, CircularProgress} from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech';
-
 import { BannerComponent } from '../../ui';
 
 export const Contactcontenido = () => {
@@ -14,27 +13,19 @@ export const Contactcontenido = () => {
   
     if (items.length === 0) {
         return (
-         <>
- 
- <br />
+         <> 
+       <br/>
  <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."/>       
   
  <Box sx={{ display: 'flex' ,
   justifyContent: 'center',
   alignItems: 'center',
 }}>
-      <CircularProgress 
-        color="secondary"
-        size={40}
-        thickness={2}
-
-      />
-    </Box>       
-          
+      <CircularProgress color="secondary" size={40}  thickness={2}  />
+    </Box>            
           </>
         );        
-    }    
-    else{
+    } else{
  
   return (    
    <>    

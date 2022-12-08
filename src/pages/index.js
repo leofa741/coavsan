@@ -10,4 +10,5 @@ export * from './LabChacarita';
 export * from './HospitalLagunaBlanca';
 export * from './JesusMariaCdba';
 export * from './IntaCastelar';
+export * from './MontesDeOca';
 
