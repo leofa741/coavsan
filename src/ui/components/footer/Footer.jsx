@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
-                    <h5 className="text-white mb-4">Our Office</h5>
+                    <h5 className="text-white mb-4">Estamos En...</h5>
                     <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>San Vicente, Bs As, Argentina</p>
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>11-3313-8900</p>
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>11-3324-9832</p>
@@ -23,19 +23,19 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
-                    <h5 className="text-white mb-4">Quick Links</h5>
+                    <h5 className="text-white mb-4">Links</h5>
                     <Link to="/home" className="text-white btn btn-link">Home</Link>
                     <Link to="/portfolio" className="text-white btn btn-link">Portfolio</Link>
                     <Link to="/contact" className="text-white btn btn-link">Contacto</Link>
               
                 </div>
                 <div className="col-lg-3 col-md-6">
-                    <h5 className="text-white mb-4">Business Hours</h5>
-                    <p className="mb-1">Monday - Friday</p>
+                    <h5 className="text-white mb-4">Horas de Atención</h5>
+                    <p className="mb-1">Lunes - Viernes</p>
                     <h6 className="text-light">09:00 am - 07:00 pm</h6>
-                    <p className="mb-1">Saturday</p>
+                    <p className="mb-1">Savado</p>
                     <h6 className="text-light">09:00 am - 12:00 pm</h6>
-                    <p className="mb-1">Sunday</p>
+                    <p className="mb-1">Domingo</p>
                     <h6 className="text-light">Closed</h6>
                 </div>
                 <div className="col-lg-3 col-md-6">
