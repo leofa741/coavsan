@@ -64,6 +64,7 @@ export const Contactcontenido = () => {
                         </div>
                         <h4 className="mb-3">Email Address</h4>
                         <p className="mb-2">cubas_beto@hotmail.com</p>
+                     <br/>
                      
                         <a className="btn btn-primary px-4" href="mailto:cubas_beto@hotmail.com">Email Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
