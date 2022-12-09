@@ -66,6 +66,7 @@ export const Contactcontenido = () => {
                         <p className="mb-2">cubas_beto@hotmail.com</p>
                      <br/>
                      <br/>
+                     <br/>
                         <a className="btn btn-primary px-4" href="mailto:cubas_beto@hotmail.com">Email Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -78,6 +79,7 @@ export const Contactcontenido = () => {
                         <h4 className="mb-3">Office Address</h4>
                         <p className="mb-2">San Vicente</p>
                         <p className="mb-4">Bs. As. Argentina</p>
+                        <br/>
                         <a className="btn btn-primary px-4" href="https://goo.gl/maps/RMtXBLfFDny43mSSA" target="_blank">Get Directions <i
                                 className="fa fa-arrow-right ms-2"></i></a>
                            
