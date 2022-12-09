@@ -29,7 +29,7 @@ export const CarrouselComponent = () => {
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
                                     <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 años de experiencia instalando</p>
-                                    <h1 className="display-1 text-white mb-5 animated slideInRight">Un equipo altamente capacitado de arquitectos, instaladores y supervisores.</h1>
+                                    <h1 className="display-1 text-white mb-5 animated slideInRight">Somos Un equipo altamente capacitado.</h1>
 
                                 </div>
                             </div>
