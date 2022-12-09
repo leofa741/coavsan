@@ -14,6 +14,7 @@ export const CarrouselComponent = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
+                                     <br /> <br />
                                     <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 años de experiencia instalando</p>
                                     <h1 className="display-1 text-white mb-5 animated slideInRight">Pisos vinilicos y Pvc</h1>
                                  
@@ -28,7 +29,7 @@ export const CarrouselComponent = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <br /> <br />
+                                    <br /> <br /> <br />
                                     <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 años de experiencia instalando</p>
                                     <h3 className="display-1 text-white mb-5 animated slideInRight">Somos Un equipo altamente capacitado.</h3>
 
