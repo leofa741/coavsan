@@ -26,7 +26,7 @@ export const IntaCastelar = () => {
     titulo3={"Descripción"}
     descrip3={"Rollos de 2 m de ancho y 2 mm de espesor Innovador diseño no direccional y policromo, disponible en 24 colores"}
     />   
-    />      
+       
    </>
   )
 }
