@@ -114,7 +114,11 @@ export const NavBar1 = () => {
         </Link>
 
         <button type="button" className="navbar-toggler-1 " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <MenuIcon   />
+            <MenuIcon  
+            style={{
+              
+                fontSize: "90px",
+             />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
