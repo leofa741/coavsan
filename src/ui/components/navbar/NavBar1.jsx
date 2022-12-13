@@ -91,7 +91,7 @@ export const NavBar1 = () => {
             style={{
                 color: "white !important",
             
-                fontSize: "12px",
+                fontSize: "14px",
                 fontWeight: "bold",
                 textAlign: "left",
                 textShadow: "2px 3px 3px #000000",
