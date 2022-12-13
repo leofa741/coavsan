@@ -94,7 +94,7 @@ export const NavBar1 = () => {
                 fontSize: "14px",
                 fontWeight: "bold",
                 textAlign: "left",
-                textShadow: "1px 2px 6px #000000",
+                textShadow: "2px 2px 5px #000000",
                 textTransform: "uppercase",
                 textDecorationColor: "white",
                 textDecorationStyle: "double",
