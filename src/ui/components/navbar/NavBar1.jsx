@@ -94,9 +94,8 @@ export const NavBar1 = () => {
                 fontSize: "12px",
                 fontWeight: "bold",
                 textAlign: "left",
-                textShadow: "2px 2px 4px #000000",
+                textShadow: "2px 3px 3px #000000",
                 textTransform: "uppercase",
-
                 textDecorationColor: "white",
                 textDecorationStyle: "double",
                 textDecorationThickness: "5px",
@@ -108,6 +107,8 @@ export const NavBar1 = () => {
                 textJustify: "auto",
                 textKashida: "auto",
                 textKashidaSpace: "0px",
+
+
 
             }}
             >Revestimientos</h6>
