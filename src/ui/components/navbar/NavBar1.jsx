@@ -115,9 +115,9 @@ export const NavBar1 = () => {
 
         <button type="button" className="navbar-toggler-1 " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <MenuIcon  
-            style={{
-              
+            style={{             
                 fontSize: "90px",
+            }}
              />
         </button>
 
