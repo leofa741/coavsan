@@ -113,7 +113,7 @@ export const NavBar1 = () => {
             >Revestimientos</h6>
         </Link>
 
-        <button type="button" className="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" className="navbar-toggler-1 " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <MenuIcon   />
         </button>
 
