@@ -11,4 +11,5 @@ export * from './HospitalLagunaBlanca';
 export * from './JesusMariaCdba';
 export * from './IntaCastelar';
 export * from './MontesDeOca';
+export * from './HospialVarela';
 

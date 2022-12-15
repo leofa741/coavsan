@@ -1,5 +1,5 @@
 import {  Route, Routes } from "react-router-dom"
-import { Baradero, Contact, Home, HospitalAleman, HospitalLagunaBlanca, IntaCastelar, JesusMariaCdba, LabChacarita, Laboratorio9DeJulio, MontesDeOca, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
+import { Baradero, Contact, Home, HospitalAleman, HospitalLagunaBlanca, HospitalVarela, IntaCastelar, JesusMariaCdba, LabChacarita, Laboratorio9DeJulio, MontesDeOca, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
 import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 
@@ -22,6 +22,7 @@ export const AppRouter = () => {
     <Route path="/jesusmariacdba" element={<JesusMariaCdba/>} />
     <Route path="/inta-castelar" element={<IntaCastelar/>} />
     <Route path="/montesdeoca" element={<MontesDeOca />} />
+    <Route path="/hospialvarela" element={<HospitalVarela />} />
 
     <Route path="/contact" element={<Contact />} /> 
     <Route path="*" element={<NotFound />} />
