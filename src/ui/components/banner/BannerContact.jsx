@@ -37,7 +37,7 @@ export const BannerContact = ({descrip}) => {
               <ol className="breadcrumb animated slideInLeft mb-0">
                   <li className="breadcrumb-item"><a href="#">Home</a></li>
                   <li className="breadcrumb-item"><a href="#">Pages</a></li>
-                  <li className="breadcrumb-item active" aria-current="page">{descrip}</li>
+                  <li className="breadcrumb-item " aria-current="page">{descrip}</li>
               </ol>
           </nav>
       </div>
