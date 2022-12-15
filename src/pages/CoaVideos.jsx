@@ -15,6 +15,9 @@ export const CoaVideos = () => {
         return (
          <> 
        <br/>
+         <br/>
+            <br/>
+            <br/>
  <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."/>       
   
  <Box sx={{ display: 'flex' ,
