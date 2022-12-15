@@ -15,7 +15,7 @@ export const CoaVideos = () => {
               <ol className="breadcrumb animated slideInRight mb-0">
                   <li className="breadcrumb-item"><a href="#">Home</a></li>
                   <li className="breadcrumb-item"><a href="#">Pages</a></li>
-                  <li className="breadcrumb-item active" aria-current="page">Videos Coa revestimientos</li>
+                  <li className="breadcrumb-item " aria-current="page">Videos Coa revestimientos</li>
               </ol>
           </nav>
       </div>
