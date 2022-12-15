@@ -10,7 +10,9 @@ export const JesusMariaCdba = () => {
   return (
     <>
     <BannerPortfolio
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"} 
+    titulo={"Jesus Maria Cdba"}
+    />   
     <br />
 
     <LayoutsGaleria

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const BannerPortfolio = ({descrip}) => {
+export const BannerPortfolio = ({descrip,titulo}) => {
   return (
     <section className="section ">
     <br/>
@@ -32,7 +32,7 @@ export const BannerPortfolio = ({descrip}) => {
             textKashidaSpace: "0px",
            
         }}
-      > {descrip}</h1>
+      > {titulo}</h1>
       <nav aria-label="breadcrumb">
           <ol className="breadcrumb animated slideInLeft mb-0">
               <li className="breadcrumb-item"><a href="#">Home</a></li>

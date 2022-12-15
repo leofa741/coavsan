@@ -11,7 +11,9 @@ export const IntaCastelar = () => {
   return (
     <>
     <BannerPortfolio 
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"} 
+    titulo={"Inta Castelar"}
+    />   
     <br />
 
     <LayoutsGaleria 

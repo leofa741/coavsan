@@ -11,7 +11,9 @@ export const RadiologiaFormosa = () => {
   return (
     <>
     <BannerPortfolio 
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"} 
+    titulo={"Radiología Formosa"}
+    />   
     <br />
 
     <LayoutsGaleria 

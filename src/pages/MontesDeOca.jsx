@@ -11,7 +11,9 @@ export const MontesDeOca = () => {
   return (
     <>
     <BannerPortfolio
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"} 
+    titulo={"Poder Judicial Montes de Oca"}
+    />   
     <br />
 
     <LayoutsGaleria

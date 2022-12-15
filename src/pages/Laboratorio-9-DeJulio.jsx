@@ -10,7 +10,9 @@ export const Laboratorio9DeJulio = () => {
   return (
     <>
     <BannerPortfolio
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"} 
+    titulo={"Laboratorio 9 de Julio"}
+    />   
     <br />
 
     <LayoutsGaleria

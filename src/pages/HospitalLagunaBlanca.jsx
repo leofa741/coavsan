@@ -10,7 +10,9 @@ export const HospitalLagunaBlanca = () => {
   return (
     <>
     <BannerPortfolio
-    descrip={"Nuestras Obras"} />   
+    descrip={"Nuestras Obras"}
+    titulo={"Hospital Laguna Blanca"}
+     />   
     <br />
 
     <LayoutsGaleria
