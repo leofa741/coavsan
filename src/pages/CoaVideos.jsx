@@ -2,7 +2,7 @@ import { Box, CircularProgress } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { customFetch } from '../database/customfech';
-import { BannerContact } from '../ui'
+import { BannerComponent, BannerContact } from '../ui'
 
 export const CoaVideos = () => {
     const [items, setItems] = useState([]); 
