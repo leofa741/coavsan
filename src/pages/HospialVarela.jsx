@@ -14,7 +14,7 @@ export const HospitalVarela = () => {
     <br />
 
     <LayoutsGaleria
-    children={<GaleriaImgComponent tittle="hospitalvarela" value={100}      />}
+    children={<GaleriaImgComponent tittle="Hospitalelcrucedevarela" value={100}      />}
 
     
     titulo={"Hospital Varela"}
