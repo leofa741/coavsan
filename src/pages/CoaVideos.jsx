@@ -1,8 +1,31 @@
-import React from 'react'
+import { Box, CircularProgress } from '@mui/material';
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { customFetch } from '../database/customfech';
 import { BannerContact } from '../ui'
 
 export const CoaVideos = () => {
+    const [items, setItems] = useState([]); 
+
+    useEffect(() => {
+        customFetch(2000,'coavideo').then((data) => setItems(data));
+     }, []);
+  
+    if (items.length === 0) {
+        return (
+         <> 
+       <br/>
+ <BannerComponent  descrip="Ofrecemos soluciones integrales instalando pisos y revestimientos vinilicos en todo el País."/>       
+  
+ <Box sx={{ display: 'flex' ,
+  justifyContent: 'center',
+  alignItems: 'center',
+}}>
+      <CircularProgress color="secondary" size={40}  thickness={2}  />
+    </Box>            
+          </>
+        );        
+    } else{
   return (
     <>
     <br/>
@@ -32,4 +55,5 @@ export const CoaVideos = () => {
   
   </>
   )
+}
 }

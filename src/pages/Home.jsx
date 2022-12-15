@@ -6,6 +6,8 @@ import itemData from '../database/datadb';
 import { BannerComponent } from '../ui';
 
 export const Home = () => {
+
+  
   const [items, setItems] = useState([]); 
    useEffect(() => {
             customFetch(3000,'home').then((data) => setItems(data));            
