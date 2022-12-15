@@ -12,7 +12,7 @@ export const CoaVideos = () => {
       <div className="container py-5">
           <h1 className="display-3 text-white animated slideInRight">Coa en Acción</h1>
           <nav aria-label="breadcrumb">
-              <ol className="breadcrumb animated slideInRight mb-0">
+              <ol className="breadcrumb animated slideInLeft mb-0">
                   <li className="breadcrumb-item"><a href="#">Home</a></li>
                   <li className="breadcrumb-item"><a href="#">Pages</a></li>
                   <li className="breadcrumb-item " aria-current="page">Videos Coa revestimientos</li>
