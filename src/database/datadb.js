@@ -1403,13 +1403,13 @@ const itemData = [
     },
     {
         id: 228,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/1.jpeg?raw=true',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/29.jpeg?raw=true',
         title: 'Hospitalelcrucedevarela',
         author : 'Coa Revestimientos',
     },
     {
         id: 229,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/2.jpeg?raw=true',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/28.jpeg?raw=true',
         title: 'Hospitalelcrucedevarela',
         author : 'Coa Revestimientos',
     },
@@ -1565,13 +1565,13 @@ const itemData = [
     },
     {
         id: 255,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/28.jpeg?raw=true',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/2.jpeg?raw=true',
         title: 'Hospitalelcrucedevarela',
         author : 'Coa Revestimientos',
     },
       {
         id: 256,
-        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/29.jpeg?raw=true',
+        img: 'https://github.com/leofa741/coavsan/blob/master/src/assets/img/Hospitalelcrucedevarela/1.jpeg?raw=true',
         title: 'Hospitalelcrucedevarela',
         author : 'Coa Revestimientos',
     },
