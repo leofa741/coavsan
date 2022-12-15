@@ -1,5 +1,15 @@
 import {  Route, Routes } from "react-router-dom"
-import { Baradero, CoaVideos, Contact, Home, HospitalAleman, HospitalLagunaBlanca, HospitalVarela, IntaCastelar, JesusMariaCdba, LabChacarita, Laboratorio9DeJulio, MontesDeOca, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
+import { Baradero,
+         CoaVideos,
+         Contact,
+         Home,
+         HospitalAleman,
+         HospitalLagunaBlanca,
+         HospitalVarela,
+         IntaCastelar,
+         JesusMariaCdba,
+         LabChacarita,
+         Laboratorio9DeJulio, MontesDeOca, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
 import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 
