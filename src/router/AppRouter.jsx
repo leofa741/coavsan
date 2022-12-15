@@ -9,7 +9,11 @@ import { Baradero,
          IntaCastelar,
          JesusMariaCdba,
          LabChacarita,
-         Laboratorio9DeJulio, MontesDeOca, NotFound, Portfolio, RadiologiaFormosa } from "../pages"
+         Laboratorio9DeJulio,
+         MontesDeOca,
+         NotFound,
+         Portfolio,
+         RadiologiaFormosa } from "../pages"
 import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 

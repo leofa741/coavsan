@@ -12,6 +12,5 @@ export * from './JesusMariaCdba';
 export * from './IntaCastelar';
 export * from './MontesDeOca';
 export * from './HospialVarela';
-export * from './HospitalSanMartin';
 export * from './CoaVideos';
 
