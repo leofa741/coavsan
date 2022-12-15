@@ -13,7 +13,7 @@ export const BannerContact = ({descrip}) => {
             style={{
                 color: "white !important",
                 fontFamily: "Roboto",
-                fontSize: "90px",
+                fontSize: "60px",
                 fontWeight: "bold",
                 textAlign: "left",
                 textShadow: "2px 2px 4px #000000",
