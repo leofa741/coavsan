@@ -163,8 +163,14 @@ export const NavBar1 = () => {
 </div>
 
 
-           <NavLink to="/contact"
-                 className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
+<NavLink to="/videoscoa"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
+            Coa en acción
+            </button>            
+                </NavLink>
+
+
+<NavLink to="/contact"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
             <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
             Contact
             </button>            
