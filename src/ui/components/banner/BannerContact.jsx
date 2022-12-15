@@ -34,7 +34,7 @@ export const BannerContact = ({descrip}) => {
             }}
           > {descrip}</h1>
           <nav aria-label="breadcrumb">
-              <ol className="breadcrumb animated slideInRight mb-0">
+              <ol className="breadcrumb animated slideInLeft mb-0">
                   <li className="breadcrumb-item"><a href="#">Home</a></li>
                   <li className="breadcrumb-item"><a href="#">Pages</a></li>
                   <li className="breadcrumb-item active" aria-current="page">{descrip}</li>
