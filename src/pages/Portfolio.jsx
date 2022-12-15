@@ -5,7 +5,7 @@ export const Portfolio = () => {
   
   return (
     <>
-    <PortFolioComponent  />
+    <PortFolioComponent   />
     </>
   )
 }

@@ -8,7 +8,9 @@ export const PortFolioComponent = () => {
   return (
     <>
 
- <BannerPortfolio descrip="Nuestras Obras"  /> 
+ <BannerPortfolio descrip="Nuestras Obras"
+  titulo="Portfolio"
+   /> 
  <ContenidoPortfolio  />
     </>
   )
