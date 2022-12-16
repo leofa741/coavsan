@@ -6,7 +6,9 @@ export const ContactComponent = () => {
   return (
  <>
 
- <BannerContact descrip="Contacto"  />
+ <BannerContact descrip="Contacto"  
+ 
+ />
  <br  />
 
  <Contactcontenido  />
