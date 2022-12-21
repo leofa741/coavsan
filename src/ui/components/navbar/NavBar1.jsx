@@ -126,8 +126,8 @@ export const NavBar1 = () => {
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
             <NavLink to=""  onClick={() => confetti({
-                    particleCount: 600,
-                    spread: 170,
+                    particleCount: 900,
+                    spread:190,
                     origin: { y: 0.6 },
                     colors: [  '#26ccff', '#000000','#ffffff',]
                   })}>
