@@ -161,22 +161,9 @@ export const NavBar1 = () => {
               >
             Campeones del mundo <SportsSoccerIcon className="rotate"
             style={{
-                fontSize: "40px",
-                color: '#525BE1',
-                textShadow: "2px 2px 4px #000000",
-                textTransform: "uppercase",
-                textDecorationColor: "white",
-                textDecorationStyle: "double",
-                textDecorationThickness: "5px",
-                textUnderlineOffset: "10px",
-                textRendering: "optimizeLegibility",
-                textOrientation: "upright",
-                textOverflow: "clip",
-                textIndent: "0px",
-                textJustify: "auto",
-                textKashida: "auto",
-                textKashidaSpace: "0px",
-
+                color: "black",
+                fontSize: "30px",
+          
 
             }}
             />
