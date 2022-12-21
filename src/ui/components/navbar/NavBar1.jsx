@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import confetti from 'canvas-confetti';
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 
 export const NavBar1 = () => {
 
@@ -125,17 +126,22 @@ export const NavBar1 = () => {
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <NavLink to=""  onClick={() => confetti({
-                    particleCount: 900,
-                    spread:190,
-                    origin: { y: 0.6 },
-                    colors: [  '#26ccff', '#000000','#ffffff',]
-                  })}>
+         
           
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-            Campeones del mundo
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"    onClick={() => confetti({
+                particleCount: 900,
+                spread:190,
+                origin: { y: 0.6 },
+                colors: [  '#26ccff', '#000000','#ffffff',]
+              })}>
+            Campeones del mundo <SportsSoccerIcon className="rotate"
+            style={{
+                fontSize: "40px",
+                color: '#3F48CC'
+            }}
+            />
             </button>            
-                </NavLink>
+              
 
             <NavLink to="/home" 
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
