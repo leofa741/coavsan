@@ -133,7 +133,32 @@ export const NavBar1 = () => {
                 spread:190,
                 origin: { y: 0.6 },
                 colors: [  '#26ccff', '#000000','#ffffff',]
-              })}    >
+              })}   
+
+            style={{
+                color: "white !important",
+                fontFamily: "Roboto",
+                fontSize: "20px",
+                fontWeight: "bold",
+                textAlign: "left",
+                textShadow: "2px 2px 4px #000000",
+                textTransform: "uppercase",
+                textDecorationColor: "white",
+                textDecorationStyle: "double",
+                textDecorationThickness: "5px",
+                textUnderlineOffset: "10px",
+                textRendering: "optimizeLegibility",
+                textOrientation: "upright",
+                textOverflow: "clip",
+                textIndent: "0px",
+                textJustify: "auto",
+                textKashida: "auto",
+                textKashidaSpace: "0px",
+
+            }}
+
+              
+              >
             Campeones del mundo <SportsSoccerIcon className="rotate"
             style={{
                 fontSize: "40px",
@@ -151,7 +176,7 @@ export const NavBar1 = () => {
                 textJustify: "auto",
                 textKashida: "auto",
                 textKashidaSpace: "0px",
-                
+
 
             }}
             />
