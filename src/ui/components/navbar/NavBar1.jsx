@@ -128,19 +128,19 @@ export const NavBar1 = () => {
             <div className="navbar-nav ms-auto p-4 p-lg-0">
          
           
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"    onClick={() => confetti({
+            <span className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"    onClick={() => confetti({
                 particleCount: 900,
                 spread:190,
                 origin: { y: 0.6 },
                 colors: [  '#26ccff', '#000000','#ffffff',]
-              })}>
+              })}    >
             Campeones del mundo <SportsSoccerIcon className="rotate"
             style={{
                 fontSize: "40px",
                 color: '#3F48CC'
             }}
             />
-            </button>            
+            </span>            
               
 
             <NavLink to="/home" 
