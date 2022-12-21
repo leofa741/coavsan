@@ -137,7 +137,7 @@ export const NavBar1 = () => {
 
             style={{
                 color: "white !important",
-                fontFamily: "Roboto",
+                fontFamily: "Roboto ,ubuntu",
                 fontSize: "17px",
                 fontWeight: "bold",
                 textAlign: "left",
