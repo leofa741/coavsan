@@ -1,4 +1,6 @@
 import {  Route, Routes } from "react-router-dom"
+import { LoginPages } from "../auth/pages/LoginPages";
+import { CalendarPage } from "../calendar/pages/CalendarPage";
 import { Baradero,
          CoaVideos,
          Contact,
@@ -18,12 +20,25 @@ import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 
 export const AppRouter = () => {
+
+  const authStatus = 'not-auth';
+
+
   return (
    <>   
    
     <NavBar1/> 
   
     <Routes>
+
+      {
+        (authStatus === 'auth') 
+        ? <Route path="/calendar" element={<CalendarPage />} />
+        :<Route path="/" element={<LoginPages />} />        
+        
+      }
+
+
     <Route path="/" element={<Home />} title="Home"/>
     <Route path="/home" element={<Home />} />
     <Route path="/portfolio" element={<Portfolio />} />
@@ -37,9 +52,9 @@ export const AppRouter = () => {
     <Route path="/inta-castelar" element={<IntaCastelar/>} />
     <Route path="/montesdeoca" element={<MontesDeOca />} />
     <Route path="/hospitalvarela" element={<HospitalVarela />} />
-    <Route path="/videoscoa" element={<CoaVideos />} />
-   
+    <Route path="/videoscoa" element={<CoaVideos />} />   
     <Route path="/contact" element={<Contact />} /> 
+    <Route path="/login" element={<LoginPages />} />
     <Route path="*" element={<NotFound />} />
     </Routes>   
 

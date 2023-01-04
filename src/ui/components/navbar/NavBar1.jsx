@@ -11,7 +11,6 @@ export const NavBar1 = () => {
     <>
     <header>   
 
-        
     <div className="container-fluid bg-dark px-0">
         <div className="row g-0 d-none d-lg-flex">
             <div className="col-lg-6 ps-5 text-start">
@@ -19,10 +18,7 @@ export const NavBar1 = () => {
                     <span>Contáctanos:</span>
                     <span className="btn btn-link text-light" href=""><i className="fa fa-envelope"> cubas_beto@hotmail.com</i></span>
                     <span className="btn btn-link text-light" href=""><i className="fab fa-instagram"></i></span>
-                    <span className="btn btn-link text-light" href=""><i className="fab fa-facebook"></i></span>
-                  
-
-                  
+                    <span className="btn btn-link text-light" href=""><i className="fab fa-facebook"></i></span>                  
                 </div>
             </div>
             <div className="col-lg-6 text-end">
@@ -45,8 +41,7 @@ export const NavBar1 = () => {
                 fontWeight: "bold",
                 textAlign: "left",
                 textShadow: "2px 2px 4px #000000",
-                textTransform: "uppercase",
-               
+                textTransform: "uppercase",               
                 textDecorationColor: "white",
                 textDecorationStyle: "double",
                 textDecorationThickness: "5px",
@@ -58,24 +53,16 @@ export const NavBar1 = () => {
                 textJustify: "auto",
                 textKashida: "auto",
                 textKashidaSpace: "0px",
-               
-
-
-
-
-
             }}
             >C</h1><br />
             <h2 className="text-white"
              style={{
-                color: "white !important",
-              
+                color: "white !important",              
                 fontSize: "60px",
                 fontWeight: "bold",
                 textAlign: "left",
                 textShadow: "2px 2px 4px #000000",
                 textTransform: "uppercase",
-
                 textDecorationColor: "white",
                 textDecorationStyle: "double",
                 textDecorationThickness: "5px",
@@ -91,8 +78,7 @@ export const NavBar1 = () => {
             }}   >OA</h2>
             <h6 className="text-white "
             style={{
-                color: "white !important",
-            
+                color: "white !important",            
                 fontSize: "14px",
                 fontWeight: "bold",
                 textAlign: "left",
@@ -109,9 +95,6 @@ export const NavBar1 = () => {
                 textJustify: "auto",
                 textKashida: "auto",
                 textKashidaSpace: "0px",
-
-
-
             }}
             >Revestimientos</h6>
         </Link>
@@ -125,8 +108,7 @@ export const NavBar1 = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto p-4 p-lg-0">
-         
+            <div className="navbar-nav ms-auto p-4 p-lg-0">         
           
             <span className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"    onClick={() => confetti({
                 particleCount: 900,
@@ -154,43 +136,25 @@ export const NavBar1 = () => {
                 textJustify: "auto",
                 textKashida: "auto",
                 textKashidaSpace: "0px",
-
-            }}
-
-              
-              >
-            Campeones del mundo <SportsSoccerIcon className="rotate"
+            }}>
+            Campeones <SportsSoccerIcon className="rotate"
             style={{
                 color: "black",
                 fontSize: "30px",
-          
-
-            }}
+                        }}
             />
-            </span>            
-              
+            </span>               
 
             <NavLink to="/home" 
                  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active':''}` } >  
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-            Home
-            </button>            
-                </NavLink>
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Home </button></NavLink>
 
                 <NavLink to="/portfolio"
                  className={ ({ isActive }) => `nav-link dropdownn   ${isActive ? 'active ':''}` } >  
-            <button   className="btn"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-           
-            Portfolio
-            </button>            
-                </NavLink>        
-                
-
+            <button   className="btn"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >Portfolio</button></NavLink>  
 
                 <div className="nav-item  dropdownn" >
-                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle"    >
-            Obras
-            </button> </NavLink >
+                <NavLink  className="nav-link" >   <button className="btn dropdown-toggle">Obras</button></NavLink >
   <div className="dropdownn-content bg-light m-0">
   <NavLink    to="/radiologoaformosa"          className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Formosa</button></NavLink >
   <NavLink    to="/laboratorio9dejulio"        className={ ({ isActive }) => `nav-link-drop  dropdownn  ${isActive ? 'active':''}` } ><button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">9 de Julio</button></NavLink >
@@ -208,22 +172,21 @@ export const NavBar1 = () => {
 
 
 <NavLink to="/videoscoa"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-            Coa en acción
-            </button>            
-                </NavLink>
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Coa en acción</button></NavLink>
 
 
 <NavLink to="/contact"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   >
-            Contact
-            </button>            
-                </NavLink>
+            <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Contact</button></NavLink>
 
-            </div>
 
-          
-        </div>
+            <NavLink to="/login"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
+            <button 
+             data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Login</button></NavLink>
+             
+            
+
+   </div>
+   </div>
     </nav>
   
     </header>
