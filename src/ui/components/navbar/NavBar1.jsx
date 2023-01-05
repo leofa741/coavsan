@@ -181,9 +181,12 @@ export const NavBar1 = () => {
 
 
             <NavLink to="/login"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Login</button></NavLink>
+            <button   data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><i className='fas fa-sign-in-alt'></i>&nbsp;Login</button></NavLink>
              
-            
+            {/* <button className='btn btn-outline-danger'  >
+      <i className='fas fa-sign-out-alt'></i>
+      <span> Logout</span>
+    </button> */}
 
    </div>
    </div>

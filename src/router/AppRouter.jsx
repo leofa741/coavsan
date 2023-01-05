@@ -1,5 +1,6 @@
 import {  Route, Routes } from "react-router-dom"
 import { LoginPages } from "../auth/pages/LoginPages";
+import { RegisterPage } from "../auth/pages/RegisterPage";
 import { BlogComponet } from "../calendar/components/BlogComponet";
 import { CalendarPage } from "../calendar/pages/CalendarPage";
 import { Baradero,
@@ -22,7 +23,7 @@ import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 export const AppRouter = () => {
 
-  const authStatus = 'not-auth';    
+  const authStatus = 'auth';    
   
   return (
    <>      
@@ -34,6 +35,7 @@ export const AppRouter = () => {
         <>
         <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/blog" element={<BlogComponet />} />
+        <Route path="/register" element={<RegisterPage />} />
 
         <Route path="/home" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />

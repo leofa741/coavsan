@@ -1,61 +1,123 @@
 import React from 'react'
+import { Calendar} from 'react-big-calendar'
+import 'react-big-calendar/lib/css/react-big-calendar.css'
+
 import { Link } from 'react-router-dom'
 import { BlogComponet } from './BlogComponet'
+import { CalendarNavBar } from './CalendarNavBar'
+import { addHours} from 'date-fns'
+import { localizer } from '../helpers/CalendarLocalizer'
+import { getMessagesEs } from '../helpers/getMessages'
+
+
+const myEventsList = [
+    {
+        id: 0,
+        title: 'All Day Event very long title',
+        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+        allDay: true,
+        start: new Date(2023, 1, 4),
+        end: addHours (new Date(2023, 1, 4), 3),
+        bgColor: '#fafafa',
+        notesColor: 'black',
+        user: {
+            _id: '123',
+            name: 'Carlos'
+        }
+
+    },
+    {
+       id: 1,
+        title: 'All Day Event very long title',
+        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+        allDay: true,
+        start: new Date(2023, 1, 1),
+        end: addHours (new Date(2023, 1, 1), 2),
+        bgColor: '#fafafa',
+        notesColor: 'black',
+        user: {
+            _id: '123',
+            name: 'Carlos'
+        }
+        
+    },
+    {
+        id: 2,
+        title: 'All Day Event very long title',
+        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+        allDay: true,
+        start: new Date(2023, 1, 2),
+        end: addHours (new Date(2023, 1, 2), 2),
+        bgColor: '#fafafa',
+        notesColor: 'black',
+        user: {
+            _id: '123',
+            name: 'Carlos'
+        }
+        
+    },
+]
+
 
 export const CalendarComponents = () => {
 
-    const BlogComponet = () => {
-
-        return (
-          <div>BlogComponet</div>
-        )
-
-       
-
+    const eventStyleGetter = (event, start, end, isSelected) => {
+          console.log(event, start, end, isSelected)
+            let style = {
+                backgroundColor: '#FF5E14',
+                borderRadius: '7px',
+                opacity: 0.8,
+                color: 'black',
+                border: '2px',
+                display: 'block'
+            };
+            return {
+                style: style
+            };
     }
-
 
 
   return (
     <>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />    
     
     <div className="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="container py-5">
-            <h1 className="display-3 text-white animated slideInRight">404 Error</h1>
+            <h1 className="display-3 text-white animated slideInRight">Agenda</h1>
             <nav aria-label="breadcrumb">
                 <ol className="breadcrumb animated slideInRight mb-0">
                     <li className="breadcrumb-item"><a href="#">Home</a></li>
                     <li className="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li className="breadcrumb-item active" aria-current="page">404 Error</li>
+                    <li className="breadcrumb-item " aria-current="page">Calendario</li>
                 </ol>
             </nav>
         </div>
     </div>
-    
-    <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container text-center">
-            <div className="row justify-content-center">
-                <div className="col-lg-6">
-                    <i className="bi bi-exclamation-triangle display-1 text-primary"></i>
-                    <h1 className="display-1">404</h1>
-                    <h1 className="mb-4">calendar</h1>
-                    <p className="mb-4">page</p>
-                    <Link
-                     className="btn btn-primary py-3 px-5" 
-                      to="/"
-                     >Go Back To Home</Link>
+            
+  <CalendarNavBar  />
+  <Calendar
+      culture='es-ES'
+      localizer={localizer}
+      events={myEventsList}
+      startAccessor="start"
+      endAccessor="end"
+      style={{ height: 600 ,
+        margin: '0 auto',
+        width: '98%',
+        backgroundColor: 'white',
+        borderRadius: '10px',
+        boxShadow: '0 0 10px 0 rgba(0,0,0,0.2)',
+        padding: '10px',
+        marginBottom: '20px',       
+        }}
+        messages={getMessagesEs()}
+        eventPropGetter={ eventStyleGetter}
 
-                 
-
-                  
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    />   
     
     </>
   )

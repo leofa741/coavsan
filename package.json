@@ -14,9 +14,11 @@
     "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.14",
     "canvas-confetti": "^1.6.0",
+    "date-fns": "^2.29.3",
     "jquery": "^3.6.1",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",
+    "react-big-calendar": "^1.5.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3"
   },
