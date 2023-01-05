@@ -23,24 +23,24 @@ export const AppRouter = () => {
 
   const authStatus = 'not-auth';
 
-
+  (authStatus === 'auth') 
+  ? <Route path="/calendar" element={<CalendarPage />} />
+  :<Route path="/" element={<LoginPages />} />        
+  
   return (
    <>   
    
     <NavBar1/> 
   
     <Routes>
-
       {
-        (authStatus === 'auth') 
-        ? <Route path="/calendar" element={<CalendarPage />} />
-        :<Route path="/" element={<LoginPages />} />        
+        authStatus === 'auth' ?
+        <Route path="/calendar" element={<CalendarPage />} />
+        :
+        <Route path="/login" element={<LoginPages />} />
         
       }
-
-
-    <Route path="/" element={<Home />} title="Home"/>
-    <Route path="/home" element={<Home />} />
+   <Route path="/home" element={<Home />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/radiologoaformosa" element={<RadiologiaFormosa />} />
     <Route path="/laboratorio9dejulio" element={<Laboratorio9DeJulio />} />
@@ -56,6 +56,7 @@ export const AppRouter = () => {
     <Route path="/contact" element={<Contact />} /> 
     <Route path="/login" element={<LoginPages />} />
     <Route path="*" element={<NotFound />} />
+        
     </Routes>   
 
     <Footer />
