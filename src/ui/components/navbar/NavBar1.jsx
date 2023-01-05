@@ -179,9 +179,9 @@ export const NavBar1 = () => {
             <button className="btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Contact</button></NavLink>
 
 
+
             <NavLink to="/login"  className={ ({ isActive }) => `nav-link  dropdownn  ${isActive ? 'active ':''}` } >  
-            <button 
-             data-bs-toggle="collapse" data-bs-target="#navbarCollapse">Login</button></NavLink>
+            <button  data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> Login</button></NavLink>
              
             
 

@@ -1,21 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BlogComponet } from './BlogComponet'
 
-export const CalendarComponents = () => {
-
-    const BlogComponet = () => {
-
-        return (
-          <div>BlogComponet</div>
-        )
-
-       
-
-    }
-
-
-
+export const BlogComponet = () => {
   return (
     <>
     
@@ -38,12 +24,14 @@ export const CalendarComponents = () => {
                 <div className="col-lg-6">
                     <i className="bi bi-exclamation-triangle display-1 text-primary"></i>
                     <h1 className="display-1">404</h1>
-                    <h1 className="mb-4">calendar</h1>
+                    <h1 className="mb-4">blog</h1>
                     <p className="mb-4">page</p>
                     <Link
                      className="btn btn-primary py-3 px-5" 
                       to="/"
                      >Go Back To Home</Link>
+
+                  
 
                  
 
@@ -59,4 +47,5 @@ export const CalendarComponents = () => {
     
     </>
   )
+  
 }
