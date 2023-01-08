@@ -53,7 +53,7 @@
 
 @media (max-width: 500px) {
     .modal {
-        max-width: 70%;
+        max-width: 80%;
         max-height: 50%;
     }
 }
