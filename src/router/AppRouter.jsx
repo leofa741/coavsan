@@ -23,7 +23,7 @@ import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 export const AppRouter = () => {
 
-  const authStatus = 'auth';    
+  const authStatus = 'not-auth';    
   
   return (
    <>      
