@@ -2,14 +2,16 @@ import React, { useState } from 'react'
 import { Calendar} from 'react-big-calendar'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
-import { Link } from 'react-router-dom'
-import { BlogComponet } from './BlogComponet'
+
 import { CalendarNavBar } from './CalendarNavBar'
 import { addHours} from 'date-fns'
 import { localizer } from '../helpers/CalendarLocalizer'
 import { getMessagesEs } from '../helpers/getMessages'
 import { CalendarEventBox } from './CalendarEventBox'
 import { CalendarModal } from './CalendarModal'
+import { useUiStore } from '../../hooks'
+
+
 
 
 const myEventsList = [
@@ -62,6 +64,9 @@ const myEventsList = [
 
 
 export const CalendarComponents = () => {
+   
+    const { onDateModalOpen }=useUiStore()
+
     
     const [lastView, setLastView] = useState( localStorage.getItem('lastView') || 'month' )
 
@@ -80,7 +85,8 @@ export const CalendarComponents = () => {
     }
 
     const onDoubleClick = (e) => {
-        console.log({ doubleClick: e});
+      
+        onDateModalOpen()
     }
 
     const onSelectEvent = (e) => {
@@ -101,20 +107,7 @@ export const CalendarComponents = () => {
     <br />
     <br />
     <br />
-    <br />    
-    
-    <div className="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div className="container py-5">
-            <h1 className="display-3 text-white animated slideInRight">Agenda</h1>
-            <nav aria-label="breadcrumb">
-                <ol className="breadcrumb animated slideInRight mb-0">
-                    <li className="breadcrumb-item"><a href="#">Home</a></li>
-                    <li className="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li className="breadcrumb-item " aria-current="page">Calendario</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
+    <br />     
             
   <CalendarNavBar  />
   <Calendar
