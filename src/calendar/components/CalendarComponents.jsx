@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Calendar} from 'react-big-calendar'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
@@ -8,12 +8,14 @@ import { CalendarNavBar } from './CalendarNavBar'
 import { addHours} from 'date-fns'
 import { localizer } from '../helpers/CalendarLocalizer'
 import { getMessagesEs } from '../helpers/getMessages'
+import { CalendarEventBox } from './CalendarEventBox'
+import { CalendarModal } from './CalendarModal'
 
 
 const myEventsList = [
     {
         id: 0,
-        title: 'All Day Event very long title',
+        title: 'Event very long title',
         notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
         allDay: true,
         start: new Date(2023, 1, 4),
@@ -48,7 +50,7 @@ const myEventsList = [
         allDay: true,
         start: new Date(2023, 1, 2),
         end: addHours (new Date(2023, 1, 2), 2),
-        bgColor: '#fafafa',
+        bgColor: '#FF5E14',
         notesColor: 'black',
         user: {
             _id: '123',
@@ -60,9 +62,10 @@ const myEventsList = [
 
 
 export const CalendarComponents = () => {
+    
+    const [lastView, setLastView] = useState( localStorage.getItem('lastView') || 'month' )
 
-    const eventStyleGetter = (event, start, end, isSelected) => {
-          console.log(event, start, end, isSelected)
+    const eventStyleGetter = (event, start, end, isSelected) => { 
             let style = {
                 backgroundColor: '#FF5E14',
                 borderRadius: '7px',
@@ -74,6 +77,21 @@ export const CalendarComponents = () => {
             return {
                 style: style
             };
+    }
+
+    const onDoubleClick = (e) => {
+        console.log({ doubleClick: e});
+    }
+
+    const onSelectEvent = (e) => {
+        console.log({ selectEvent: e});
+    }
+
+    const onView = (e) => {
+        console.log({ onView: e});
+        setLastView(e)
+        localStorage.setItem('lastView', e)
+
     }
 
 
@@ -103,6 +121,7 @@ export const CalendarComponents = () => {
       culture='es-ES'
       localizer={localizer}
       events={myEventsList}
+      defaultView={lastView}
       startAccessor="start"
       endAccessor="end"
       style={{ height: 600 ,
@@ -116,8 +135,16 @@ export const CalendarComponents = () => {
         }}
         messages={getMessagesEs()}
         eventPropGetter={ eventStyleGetter}
+        components={{
+            event: CalendarEventBox
+        }}
+        onDoubleClickEvent={onDoubleClick}
+        onSelectEvent={onSelectEvent}
+        onView={onView}
+        selectable={true}
+            />   
 
-    />   
+            <CalendarModal />
     
     </>
   )

@@ -23,7 +23,7 @@ import {Copirrigth, Footer, NavBar1 } from "../ui"
 
 export const AppRouter = () => {
 
-  const authStatus = 'not-auth';    
+  const authStatus = 'auth';    
   
   return (
    <>      
@@ -31,7 +31,7 @@ export const AppRouter = () => {
   
     <Routes>
       {
-        authStatus === 'auth' ?
+        authStatus === 'not-auth' ?
         <>
         <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/blog" element={<BlogComponet />} />
