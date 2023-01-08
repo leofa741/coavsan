@@ -31,7 +31,7 @@ export const AppRouter = () => {
   
     <Routes>
       {
-        authStatus === 'not-auth' ?
+        authStatus === 'auth' ?
         <>
         <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/blog" element={<BlogComponet />} />
