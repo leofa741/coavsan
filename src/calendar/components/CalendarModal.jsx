@@ -37,7 +37,7 @@ export const CalendarModal = () => {
 
   const titleClass = useMemo(() => {
 
-    if(!formValues.title && !formsubmit) return 'form-control'
+    if(!formValues.title && !formsubmit) return ''
 
     if (formsubmit) {
       return (formValues.title.trim().length < 2) ? 'form-control is-invalid' : 'form-control is-valid'
@@ -47,7 +47,7 @@ export const CalendarModal = () => {
 
   const notesClass = useMemo(() => {
 
-    if(!formValues.notes && !formsubmit) return 'form-control'
+    if(!formValues.notes && !formsubmit) return ''
 
     if (formsubmit) {
       return (formValues.notes.trim().length < 2) ? 'form-control is-invalid' : 'form-control is-valid'
@@ -152,7 +152,7 @@ export const CalendarModal = () => {
         <label>Asiento :</label>
         <input 
             type="text" 
-            className={titleClass}
+            className={`form-control ${titleClass}`}
             placeholder="Asiento"
             name="title"
             autoComplete="off"
@@ -165,7 +165,7 @@ export const CalendarModal = () => {
     <div className="form-group mb-2">
         <textarea 
             type="text" 
-            className={notesClass}
+            className={`form-control ${notesClass}`}
             placeholder="Notas"
             rows="5"
             name="notes"
