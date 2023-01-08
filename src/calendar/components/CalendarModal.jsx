@@ -122,7 +122,7 @@ export const CalendarModal = () => {
         locale={es}        
         selected={formValues.start}
         onChange={e => onDateChange(e,'start')}
-    
+        showTimeSelect
         timeFormat="HH:mm"
         timeIntervals={15}
         timeCaption="hora"
@@ -139,7 +139,7 @@ export const CalendarModal = () => {
         minDate={formValues.start}
         selected={formValues.end}
         onChange={e => onDateChange(e,'end')}      
-    
+        showTimeSelect
         timeFormat="HH:mm"
         timeIntervals={15}
         timeCaption="hora"
