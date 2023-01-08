@@ -9,63 +9,19 @@ import { localizer } from '../helpers/CalendarLocalizer'
 import { getMessagesEs } from '../helpers/getMessages'
 import { CalendarEventBox } from './CalendarEventBox'
 import { CalendarModal } from './CalendarModal'
-import { useUiStore } from '../../hooks'
+import { useUiStore ,useCalendarStore} from '../../hooks'
 
 
 
 
-const myEventsList = [
-    {
-        id: 0,
-        title: 'Event very long title',
-        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
-        allDay: true,
-        start: new Date(2023, 1, 4),
-        end: addHours (new Date(2023, 1, 4), 3),
-        bgColor: '#fafafa',
-        notesColor: 'black',
-        user: {
-            _id: '123',
-            name: 'Carlos'
-        }
 
-    },
-    {
-       id: 1,
-        title: 'All Day Event very long title',
-        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
-        allDay: true,
-        start: new Date(2023, 1, 1),
-        end: addHours (new Date(2023, 1, 1), 2),
-        bgColor: '#fafafa',
-        notesColor: 'black',
-        user: {
-            _id: '123',
-            name: 'Carlos'
-        }
-        
-    },
-    {
-        id: 2,
-        title: 'All Day Event very long title',
-        notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
-        allDay: true,
-        start: new Date(2023, 1, 2),
-        end: addHours (new Date(2023, 1, 2), 2),
-        bgColor: '#FF5E14',
-        notesColor: 'black',
-        user: {
-            _id: '123',
-            name: 'Carlos'
-        }
-        
-    },
-]
 
 
 export const CalendarComponents = () => {
    
     const { onDateModalOpen }=useUiStore()
+
+    const { events } = useCalendarStore()
 
     
     const [lastView, setLastView] = useState( localStorage.getItem('lastView') || 'month' )
@@ -113,7 +69,7 @@ export const CalendarComponents = () => {
   <Calendar
       culture='es-ES'
       localizer={localizer}
-      events={myEventsList}
+      events={events}
       defaultView={lastView}
       startAccessor="start"
       endAccessor="end"
