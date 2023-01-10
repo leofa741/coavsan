@@ -1,5 +1,5 @@
 import { addHours, differenceInSeconds } from 'date-fns';
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 import DatePicker ,{ registerLocale}from "react-datepicker";
@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import es from 'date-fns/locale/es';
 import Modal from 'react-modal'
 import './modal.css'
-import { useUiStore } from '../../hooks';
+import { useCalendarStore, useUiStore } from '../../hooks';
 
 const customStyles = {
     content: {
@@ -28,12 +28,13 @@ export const CalendarModal = () => {
 
   const { isDateModalOpen ,onDateModalClose }=useUiStore ()
 
- 
+ const { activeEvent }=useCalendarStore()
   const [formsubmit, setFormsubmit] = useState(false);
 
   const [formValues, setFormValues] = useState({
     title: '', 
     notes: '',
+    amount: 0,
     start: new Date(),
     end: addHours (new Date(), 2)
   })
@@ -57,6 +58,22 @@ export const CalendarModal = () => {
     }
 
 }, [formValues.notes, formsubmit])
+
+useEffect(() => {
+  if (activeEvent) {
+    setFormValues(activeEvent)
+  } else {
+    setFormValues({
+      title: '', 
+      notes: '',
+      amount: '',
+      start: new Date(),
+      end: addHours (new Date(), 2)
+    })
+
+  }
+}, [activeEvent])
+
 
 
   const onInputChange = ({ target }) => {
@@ -115,7 +132,16 @@ export const CalendarModal = () => {
     className="modal"
     overlayClassName="modal-fondo"    
    >
-       <h1> Nuevo asiento </h1>
+       <h1
+       style={{color:'black' ,
+        textAlign:'left',
+        fontSize:'1.4rem',
+        fontWeight:'bold',
+     
+
+
+      }}
+       > Nuevo asiento </h1>
 <hr />
 <form className="container"  onSubmit={onSubmit}  >
 
@@ -171,13 +197,28 @@ export const CalendarModal = () => {
             type="text" 
             className={`form-control ${notesClass}`}
             placeholder="Notas"
-            rows="5"
+            rows="3"
             name="notes"
             value={formValues.notes}
             onChange={onInputChange}
         ></textarea>
         <small id="emailHelp" className="form-text text-muted">Información adicional</small>
     </div>
+
+    <div className="form-group mb-2">
+        <label>importe:</label>
+        <input 
+            type="text"
+            className="form-control"
+            placeholder="importe"
+            name="importe"
+            autoComplete="off"
+            value={formValues.amount}
+            onChange={onInputChange}
+        />
+        <small id="emailHelp" className="form-text text-muted">Importe</small>
+    </div>
+
 
     <button
         type="submit"
@@ -199,10 +240,6 @@ export const CalendarModal = () => {
             }}
             ></i>
             </span>
-
-            
-
-
    </Modal>
   )
 }

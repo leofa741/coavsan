@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const CalendarEventBox = ({event}) => {
-    const {title, notes,   user} = event;
+    const {title, notes, amount ,  user} = event;
 
   return (
     <> 
@@ -9,13 +9,14 @@ export const CalendarEventBox = ({event}) => {
     <div className="row">
     <div className="col-md-6">
     <div className="card"
-    style={{width: '48rem',
-    height: '7rem',
+    style={{width: '60rem',
+    height: '9rem',
     backgroundColor: '#FF5E14',
     borderRadius: '7px',
-    marginTop: '5px',
+    borderBlockColor: 'black',
+    marginTop: '-2px',
     marginBottom: '5px',
-    marginLeft: '5px',
+    marginLeft: '-15px',
     marginRight: '5px',
     }}
     >
@@ -31,8 +32,19 @@ export const CalendarEventBox = ({event}) => {
     fontSize: '13px'}}
 
     >{notes}</p>
+
+    <p className="card-text"
+    style={{color: 'black',
+    fontWeight: 'bold',
+    fontSize: '13px'}}
+    >{amount}</p>
+    <p className="card-text"
+    style={{color: 'black',
+    fontWeight: 'bold',
+    fontSize: '13px'}}
+    >{user.name}</p>
    
-    <p className="card-text">{user.name}</p>
+  
     </div>
     </div>
     </div>

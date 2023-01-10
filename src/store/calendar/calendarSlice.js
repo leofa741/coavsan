@@ -6,9 +6,10 @@ import { addHours } from "date-fns";
 
 
 const tempevent = {
-    id: 0,
+    _id: new Date().getTime(),
     title: 'Event very long title',
     notes : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+    amount: 200,
     allDay: true,
     start: new Date(2023, 1, 4),
     end: addHours (new Date(2023, 1, 4), 3),
@@ -33,10 +34,6 @@ export const calendarSlice = createSlice({
             state.activeEvent = action.payload;
             
         },
-
-
-
-
     },
 });
 

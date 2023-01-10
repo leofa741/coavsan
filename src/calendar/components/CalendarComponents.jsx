@@ -4,24 +4,20 @@ import 'react-big-calendar/lib/css/react-big-calendar.css'
 
 
 import { CalendarNavBar } from './CalendarNavBar'
-import { addHours} from 'date-fns'
+
 import { localizer } from '../helpers/CalendarLocalizer'
 import { getMessagesEs } from '../helpers/getMessages'
 import { CalendarEventBox } from './CalendarEventBox'
 import { CalendarModal } from './CalendarModal'
 import { useUiStore ,useCalendarStore} from '../../hooks'
-
-
-
-
-
+import { FabAddNew } from './FabAddNew'
 
 
 export const CalendarComponents = () => {
    
     const { onDateModalOpen }=useUiStore()
 
-    const { events } = useCalendarStore()
+    const { events, setDateChange } = useCalendarStore()
 
     
     const [lastView, setLastView] = useState( localStorage.getItem('lastView') || 'month' )
@@ -40,13 +36,14 @@ export const CalendarComponents = () => {
             };
     }
 
-    const onDoubleClick = (e) => {
-      
+    const onDoubleClick = (e) => {      
         onDateModalOpen()
     }
 
     const onSelectEvent = (e) => {
-        console.log({ selectEvent: e});
+        console.log({ onSelectEvent: e});
+        setDateChange(e)
+        onDateModalOpen()
     }
 
     const onView = (e) => {
@@ -94,6 +91,7 @@ export const CalendarComponents = () => {
             />   
 
             <CalendarModal />
+            <FabAddNew  />
     
     </>
   )
