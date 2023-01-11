@@ -33,7 +33,7 @@
     border-radius: 5px;
     color: rgb(51, 51, 51);
     display: inline;
-    max-height: 760px;
+    max-height: 700px;
     max-width: 500px;
     outline: none;
     padding: 10px;
@@ -42,13 +42,19 @@
 .btn-close {
     background: none;
     border: none;
-    color: #000;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.btn-close:hover {
+    color: rgb(255, 0, 0);
+  
+
 }
 
 @media (max-width: 500px) {

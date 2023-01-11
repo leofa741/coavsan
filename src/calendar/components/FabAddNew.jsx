@@ -1,43 +1,38 @@
 import { addHours } from 'date-fns'
 import React from 'react'
 import { useCalendarStore, useUiStore } from '../../hooks'
+import { onOpenDateModal } from '../../store'
 import './fabaddnew.css'
+
+
 
 export const FabAddNew = () => {
 
-    const { onDateModalOpen  }=useUiStore()
-    const {
-        activeEvent,
-        events,
-        setDateChange,
+    const { openDateModal } = useUiStore();
+    const { setActiveEvent } = useCalendarStore();
 
-    }=useCalendarStore()
-
-    const onChangeDateModalOpen = () => {
-        setDateChange({
+    const handleClickNew = () => {
+        setActiveEvent({
             title: '',
             notes: '',
             amount: 0,
             start: new Date(),
-            end: addHours (new Date(), 2),
-            bgColor: '#FF5E14',
+            end: addHours( new Date(), 2 ),
+            bgColor: '#fafafa',
             user: {
                 _id: '123',
-                name: 'Jorge'
+                name: 'Fernando'
             }
-        })
-        onDateModalOpen()
+        });
+        openDateModal();
     }
 
 
-
-
   return (
-    <button className="btn btn-primary fabb"
-    onClick={onChangeDateModalOpen}
+    <button
+        className="btn btn-primary fabb"
+        onClick={ handleClickNew }
     >
-    
-
     </button>
   )
 }
